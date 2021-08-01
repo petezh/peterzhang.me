@@ -14,7 +14,7 @@ permalink: "price-we-pay"
 
 Here's the [paperback](https://amzn.to/3iPZRO3) and [audiobook](https://amzn.to/3x75UTt).
 
-**Utility: ★★★★✰** (4/5)
+Utility: ★★★★✰ (4/5)
 
 Writing: ★★★★✰ (4/5)
 

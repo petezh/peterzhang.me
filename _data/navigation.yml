@@ -1,0 +1,13 @@
+# main links links
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Experiences"
+    url: /experiences/
+
+  - title: "Posts"
+    url: /posts/     
+        
+  - title: "Resume"
+    url: /files/resume.pdf

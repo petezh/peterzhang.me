@@ -11,7 +11,7 @@ title                    : "Peter's Corner 🛴"
 title_separator          : "-"
 name                     : &name "Peter Zhang"
 description              : &description "personal description"
-url                      : https://peterzhang.info/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://localhost:4000/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "petezh/Portfolio"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -145,7 +145,6 @@ exclude:
   - node_modules
   - package.json
   - tmp
-  - vendor
 keep_files:
   - .git
   - .svn

@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Subtle Art'
 date: 2021-01-06
-permalink: /posts/2021/01/sublte-art
+permalink: /posts/2021/01/subtle-art
 tags:
   - book review
   - self help

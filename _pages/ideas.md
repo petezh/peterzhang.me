@@ -1,5 +1,5 @@
 ---
-permalink: /ideas
+permalink: /ideas/
 title: "Ideas"
 excerpt: "Currently on my mind."
 author_profile: true

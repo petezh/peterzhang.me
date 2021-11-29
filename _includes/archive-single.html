@@ -39,9 +39,9 @@
     {% endif %}
 
         {% if post.collection == 'experiences' and post.end_date %}
-          <p> <i>{{ post.type }}</i>, {{ post.date | default: "1900-01-01" | date: "%m/%Y" }} -  {{ post.end_date | default: "1900-01-01" | date: "%m/%Y" }}, {{post.venue}} </p>
+          <p> <b>{{ post.type }}</b>, {{ post.date | default: "1900-01-01" | date: "%m/%Y" }}—{{ post.end_date | default: "1900-01-01" | date: "%m/%Y" }}, <i>{{post.venue}}</i></p>
         {% elsif post.collection == 'experiences' %}
-          <p> <i>{{ post.type }}</i>, {{ post.date | default: "1900-01-01" | date: "%m/%Y" }} - Present, {{post.venue}} </p>
+          <p> <b>{{ post.type }}</b>, {{ post.date | default: "1900-01-01" | date: "%m/%Y" }}— Present, <i>{{post.venue}}</i> </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}

@@ -11,7 +11,7 @@ News:
 * [The Daily](https://www.nytimes.com/column/the-daily): Journalism by the New York Times with a slight left-leaning bend.
 * [FiveThirtyEight Politics](https://fivethirtyeight.com/podcasts/): The latest takes on political events from leading pollsters.
 * [The Economist](https://www.economist.com/podcasts): A collection of podcasts covering U.S. politics, global events, and financial news.
-* [3 Martini Lunch](https://www.nationalreview.com/podcasts/three-martini-lunch/): Funny, daily, conservative political commentary.
+* [3 Martini Lunch](https://www.nationalreview.com/podcasts/three-martini-lunch/): Funny daily conservative political commentary.
 
 Learning:
 * [Freakonomics Radio](https://freakonomics.com/archive/): The lovely Stephen Dubner teaches you everything.

@@ -16,7 +16,7 @@ I'm Peter. I study [computer science](https://eecs.berkeley.edu/), [economics](h
 
 ### What's This?
 
-This site is a portfolio, blog, and notebook. I set it up to practice turning thoughts into words. It's become a way for me to share my ideas with others. Some key pages are
+This site is a portfolio, blog, and notebook. I set it up to practice turning thoughts into words. It's become a way for me to share my ideas with others. Check out:
 1. My [habits](habits)
 2. My [media diet](media)
 3. My [ideas](ideas)

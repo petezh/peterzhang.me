@@ -1,7 +1,7 @@
 ---
 permalink: /habits/
 title: "Habits"
-excerpt: "Not a certified doctor/accountant/etc."
+excerpt: "Not a doctor/certified accountant/fitness trainer/etc."
 author_profile: true
 ---
 
@@ -15,8 +15,8 @@ author_profile: true
 - Use a budgeting app integrated with bank accounts to automatically track expenses and assist with setting goals. [Mint](https://mint.intuit.com/) and [You Need a Budget](https://www.youneedabudget.com/) are great apps.
 - Put savings in a index fund like Vanguard's [S&P 500 index](https://investor.vanguard.com/etf/profile/VOO).
 - Meditate for 5 minutes every morning. Apps like [Calm](https://www.calm.com/) or [Headspace](https://www.headspace.com/) are nice, but a quick [search](https://www.youtube.com/results?search_query=meditation) for "meditation" on Youtube is just as good.
-- Get 8 hours of good sleep, every night. No [blue lighting](https://www.health.harvard.edu/staying-healthy/blue-light-has-a-dark-side) three hours before bed. Turn on night mode on all devices. Put phones in a different room. Consider reading before bed.
-- Jog or workout every day. Make physical exercise non-optional, just like eating or sleeping.
+- Get 8 hours of good sleep, every night. No [blue lighting](https://www.health.harvard.edu/staying-healthy/blue-light-has-a-dark-side) three hours before bed. Turn on night mode on all devices. Put phones in a different room. Consider reading before bed. Recognize if naps don't work.
+- Jog or workout every day. Make physical exercise non-optional, just like eating or sleeping. If you care about body fat/composition, invest $20 in a [Renpho Scale](https://www.amazon.com/RENPHO-Bluetooth-Bathroom-Composition-Smartphone/dp/B01N1UX8RW).
 
 ## Time ⌛
 - Use time blocking wtih [Google Calendar](https://todoist.com/productivity-methods/time-blocking), marking off 30 minute+ periods to focus on a specific task.
@@ -42,10 +42,8 @@ author_profile: true
 ## Happiness 😊
 - Customize the [Daylio](https://daylio.net/) app to track desired habits. Especially consider adding social and personal goals. Log habits daily.
 - Practice [gratefulness](https://www.health.harvard.edu/healthbeat/giving-thanks-can-make-you-happier). Whether through an app or notebook, write three good things that you've brought about each day. Consider building gratefulness into a meditation routine.
-- Journal, preferably on paper. Don't personally practice it, but it seems to do wonders.
 - Socialize. Relationship quality is the [strongest predictor](https://greatergood.berkeley.edu/article/item/want_to_be_happy_make_your_relationships_exceptional) of long-term happiness.
 - Regular social media / technology detoxes can help break unhealthy dependencies.
-- Mental health is a non-optional priority. Therapy is normal.
 
 ## Space 🧹
 - Put things back right after using them, parallelizing when possible. An exception is bulk processing: washing all the dishes together, weekly sweeping, etc.
@@ -57,3 +55,10 @@ author_profile: true
 - To memorize facts, use the [Anki flashcard software](https://apps.ankiweb.net/) and download cards for any topic: geography, languages, etc.
 - Read, god dammit. Pick up a book at the library or buy one off Amazon. [*Misbehaving*](https://www.amazon.com/Misbehaving-Behavioral-Economics-Richard-Thaler/dp/039335279X) by Richard Thaler is a good one.
 - Put those ears to work. Spend time finding interesting podcasts or e-books to listen to while traveling, exercizing, cooking, etc. Consider keeping track of a [media diet](media).
+
+## Sources & Inspirations 🔎
+- James Maa's [Productivity Hacking Guide](http://www.jamesmaa.com/2018/10/16/ultimate-productivity-hacking-guide-v2/): The blog post that sparked all my habits
+- [7 Habits of Highly Effective People](https://www.amazon.com/Habits-Highly-Effective-People-Powerful-ebook/dp/B01069X4H0) by Stephen Covey: A seminal book on productivity and personal growth.
+- [Happiness Advantage](2021/04/happiness-advantage) by Shawn Achor: Happiness makes you smarter and more hardworking. Be happy.
+- [Why We Sleep](posts/2021/06/why-we-sleep) by Matthew Walker: A summary of the science behind and importance behind sleep.
+- [Farnam Street's "Reading Better"](https://fs.blog/reading/): Techniques for effectively reading, and enjoying it.

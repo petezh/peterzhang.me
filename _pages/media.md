@@ -6,7 +6,6 @@ author_profile: true
 ---
 
 ## Podcasts 👂
-
 News:
 * [The Daily](https://www.nytimes.com/column/the-daily): Journalism by the New York Times with a slight left-leaning bend.
 * [FiveThirtyEight Politics](https://fivethirtyeight.com/podcasts/): The latest takes on political events from leading pollsters.
@@ -18,6 +17,7 @@ Learning:
 * [No Stupid Questions](https://freakonomics.com/nsq/): Dubner's weekly banter with psychologist Angela Duckworth.
 * [Freakonomics, M.D.](https://freakonomics.com/freakonomics-md/): A medical spinoff hosted by Bapu Jena.
 * [Planet Money](https://www.npr.org/sections/money/): All-things-economic from NPR.
+* [Hidden brain](https://www.npr.org/series/423302056/hidden-brain): Story-based explorations of psychology concepts.
 * [Philosophize This](https://www.philosophizethis.org/): Well-researched, casual introductions to diverse philosophical figures.
 * [Why Theory](https://podbay.fm/p/why-theory): Two Lacanians psychoanalyze society, media, and each other.
 
@@ -32,7 +32,6 @@ Fun:
 ## News 📰
 * [TechCrunch](https://techcrunch.com/): Pop tech news.
 * [The New Yorker](https://www.newyorker.com/): Longer, well-written pieces.
-
 
 ## Subreddits 💻
 * [r/berkeley](https://www.reddit.com/r/berkeley/): School-spirited shitposts.

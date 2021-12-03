@@ -8,15 +8,15 @@ tags:
   - public policy
 ---
 
-*Black Rednecks and White Liberals* is a stimulating collection of essays on culture and race from Thomas Sowell, a renowned black, conservative intellectual. It traverses topics ranging from redneck culture and Jewish oppression to Nazism and black education. It is an important and valuable critique of progressive understandings of history and society,
+*Black Rednecks and White Liberals* is a stimulating collection of essays on culture and race from Thomas Sowell, a renowned black, conservative intellectual. It traverses topics ranging from redneck culture and Jewish oppression to Nazism and black education. It is an important and valuable critique of progressive views on history and society.
 
 <img align="right" width="30%" src="/images/books/black_rednecks.jpg">
 
 Here's the [paperback](https://amzn.to/3jf5ENc) and [audiobook](https://amzn.to/3j8QCJ3).
 
-**Utility**: ⭐⭐⭐⭐⭐ (5/5)
+**Utility**: ⭐⭐⭐⭐ (4/5)
 
-**Writing**: ⭐⭐⭐⭐ (4/5)
+**Writing**: ⭐⭐⭐ (3/5)
 
 I am no history buff. My historical knowledge starts and ends in left-leaning high school classrooms. Each time Sowell disputed a reading of history, he directly challenged my own beliefs. It was a refreshing and exciting experience to hear his perspective. If you're left-leaning but open-minded, I think you'll enjoy this book.
 

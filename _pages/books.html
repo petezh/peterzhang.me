@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Books"
+permalink: /books/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign sorted_books = site.books | sort:"rating" %}
+
+{% for post in sorted_books reversed %}
+  {% include archive-single.html %}
+{% endfor %}

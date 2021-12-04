@@ -1,0 +1,5 @@
+{% assign stars = "" %}
+{% for i in (1..include.rating) %}
+{% assign stars = stars | append: '⭐' %}
+{% endfor %}
+<p class="star-rating"><b>Rating</b>: <span>{{ stars }}</span></p>

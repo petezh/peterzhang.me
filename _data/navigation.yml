@@ -1,12 +1,15 @@
 # main links links
 main:
 
-  - title: "Experiences"
-    url: /experiences/
-
-  - title: "Posts"
-    url: /posts/     
+  - title: "Notes"
+    url: /notes/   
+  
+  - title: "Books"
+    url: /books/     
         
+  - title: "Writings"
+    url: /writings/  
+
   - title: "CV"
     url: /cv/
 

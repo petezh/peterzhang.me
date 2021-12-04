@@ -180,7 +180,13 @@ collections:
   experiences:
     output: true
     permalink: /:collection/:path/
-  posts:
+  writings:
+    output: true
+    permalink: /:collection/:path/
+  books:
+    output: true
+    permalink: /:collection/:path/
+  notes:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -190,10 +196,32 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
+  # _writings
   - scope:
       path: ""
-      type: posts
+      type: writings
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _books
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _notes
+  - scope:
+      path: ""
+      type: notes
     values:
       layout: single
       author_profile: true

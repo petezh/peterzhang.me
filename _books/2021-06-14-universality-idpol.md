@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Universality and Identity Politics'
 date: 2021-06-14
-permalink: /books/university-idpol
+permalink: /books/universality-idpol
 rating: 7
 tags:
   - book review

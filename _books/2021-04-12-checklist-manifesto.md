@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Checklist Manifesto'
 date: 2021-04-12
-permalink: /posts/2021/04/checklist-manifesto
+permalink: /books/checklist-manifesto
 rating: 8
 tags:
   - book review

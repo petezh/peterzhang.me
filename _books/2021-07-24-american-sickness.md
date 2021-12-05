@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: American Sickness'
 date: 2021-07-24
-permalink: /posts/2021/07/american-sickness
+permalink: /books/american-sickness
 rating: 7
 tags:
   - book review

@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: The Halo Effect'
 date: 2021-05-14
-permalink: /posts/2021/05/halo-effect
+permalink: /books/halo-effect
 rating: 9
 tags:
   - book review

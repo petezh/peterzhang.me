@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Age of Turbulence'
 date: 2021-02-19
-permalink: /posts/2021/02/age-of-turbulence
+permalink: /books/age-of-turbulence
 rating: 3
 tags:
   - book review

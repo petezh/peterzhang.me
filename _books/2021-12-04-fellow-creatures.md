@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Fellow Creatures'
 date: 2021-12-04
-permalink: /posts/2021/12/fellow-creatures
+permalink: /books/fellow-creatures
 rating: 8
 tags:
   - book review

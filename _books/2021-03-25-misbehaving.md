@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Misbehaving'
 date: 2021-03-25
-permalink: /posts/2021/03/misbehaving
+permalink: /books/misbehaving
 rating: 10
 tags:
   - book review

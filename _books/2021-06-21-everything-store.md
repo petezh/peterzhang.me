@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Everything Store'
 date: 2021-06-21
-permalink: /posts/2021/06/everything-store
+permalink: /books/everything-store
 rating: 9
 tags:
   - book review

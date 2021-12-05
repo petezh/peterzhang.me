@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Happiness Advantage'
 date: 2021-04-09
-permalink: /posts/2021/04/happiness-advantage
+permalink: /books/happiness-advantage
 rating: 8
 tags:
   - book review

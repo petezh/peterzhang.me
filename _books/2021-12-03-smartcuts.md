@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Smartcuts'
 date: 2021-12-03
-permalink: /posts/2021/12/smartcuts
+permalink: /books/smartcuts
 rating: 6
 tags:
   - book review

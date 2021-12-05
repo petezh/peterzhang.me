@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: On Grand Strategy'
 date: 2021-06-04
-permalink: /posts/2021/06/grand_strategy
+permalink: /books/grand_strategy
 rating: 7
 tags:
   - book review

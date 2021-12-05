@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Food Rules'
 date: 2021-07-29
-permalink: /posts/2021/07/food-rules
+permalink: /books/food-rules
 rating: 5
 tags:
   - book review

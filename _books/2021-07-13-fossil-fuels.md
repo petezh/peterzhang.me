@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Moral Case for Fossil Fuels'
 date: 2021-07-13
-permalink: /posts/2021/07/halo-effect
+permalink: /books/fossil-fuels
 rating: 4
 tags:
   - book review

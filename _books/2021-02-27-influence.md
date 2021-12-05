@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Influence'
 date: 2021-02-27
-permalink: /posts/2021/02/influence
+permalink: /books/influence
 rating: 10
 tags:
   - book review

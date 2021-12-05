@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Price We Pay'
 date: 2021-07-26
-permalink: /posts/2021/07/price-we-pay
+permalink: /books/price-we-pay
 rating: 8
 tags:
   - book review

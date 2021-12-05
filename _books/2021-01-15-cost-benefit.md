@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Cost-Benefit Revolution'
 date: 2021-01-15
-permalink: /posts/2021/01/cost-benefit-revolution
+permalink: /books/cost-benefit-revolution
 rating: 6
 tags:
   - book review

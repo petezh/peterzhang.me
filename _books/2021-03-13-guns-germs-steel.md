@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Guns, Germs, and Steel'
 date: 2021-03-13
-permalink: /posts/2021/03/guns-germs-steel
+permalink: /books/guns-germs-steel
 rating: 8
 tags:
   - book review

@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: 10 Percent Happier'
 date: 2021-06-07
-permalink: /posts/2021/06/10_percent
+permalink: /books/10_percent
 rating: 8
 tags:
   - book review

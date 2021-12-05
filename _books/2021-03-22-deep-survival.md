@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Deep Survival'
 date: 2021-03-22
-permalink: /posts/2021/03/deep-survival
+permalink: /books/deep-survival
 rating: 8
 tags:
   - book review

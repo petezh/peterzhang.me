@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: #BreakIntoVC'
 date: 2021-01-21
-permalink: /posts/2021/02/break-into-vc
+permalink: /books/break-into-vc
 rating: 5
 tags:
   - book review

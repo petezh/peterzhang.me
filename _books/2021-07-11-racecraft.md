@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Racecraft'
 date: 2021-07-11
-permalink: /posts/2021/07/racecraft
+permalink: /books/racecraft
 rating: 8
 tags:
   - book review

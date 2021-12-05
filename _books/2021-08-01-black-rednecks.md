@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Black Rednecks'
 date: 2021-08-01
-permalink: /posts/2021/08/black-rednecks
+permalink: /books/black-rednecks
 rating: 7
 tags:
   - book review

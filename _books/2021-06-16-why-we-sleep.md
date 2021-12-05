@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Why We Sleep'
 date: 2021-06-16
-permalink: /posts/2021/06/why-we-sleep
+permalink: /books/why-we-sleep
 rating: 8
 tags:
   - book review

@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Perfectly Confident'
 date: 2021-03-16
-permalink: /posts/2021/03/perfectly-confident
+permalink: /books/perfectly-confident
 rating: 9
 tags:
   - book review

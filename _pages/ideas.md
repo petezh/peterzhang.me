@@ -5,6 +5,8 @@ excerpt: "Currently on my mind."
 author_profile: true
 ---
 
+## Market Oversizing
+
 ## Bikeshare Surge Pricing 🚲
 Ride share programs are well-known for using surge pricing to adjust demand and supply across time. Bike sharing apps like Lyft should do the same, except based on location instead of time. When I try to bike around campus, there's an annoying imbalanced of bikes. On the west of campus, there's an abundance of bikes. On the east side, empty docks abound. The reason? The campus *slopes down* from east to west, so one way is a speedy, smooth glide, while the other is a pain in the ass. Lyft should price based off of location and altitude so that there's bikes at Haas that I use to fly home.
 

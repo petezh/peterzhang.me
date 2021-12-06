@@ -5,7 +5,14 @@ excerpt: "Currently on my mind."
 author_profile: true
 ---
 
-## Market Oversizing
+## Chess Dataset ♟️
+It must be an [underused dataset](https://www.kaggle.com/datasnaek/chess). Performance in chess games can tell us a host of things about persistance, general intelligence, and executive control. For example, how many lost games until someone gives up for the day? Is the hot hand a *thing* in chess? Did the general public get better or worse at chess after COVID-19 hit? What about after daylight savings?
+
+## Debater Careers 👔
+What exactly do high school debaters do post-graduation? Does *how* they debated inform their career trajectories? Take one or more year's worth of TOC entries. Segment them by debate type (PF/LD/Policy) and style (philosophy, policy, critical, tricks, flex). Use LinkedIn to identify their college major and internship/full-time industry. If the K debaters have it right, then LARPers/PFers should work more in finance/consulting etc. We can compile a table and make a [Sankey diagram](https://en.wikipedia.org/wiki/Sankey_diagram).
+
+## Market (Over?)sizing 🧺
+We know that investors are [overconfident](https://pubs.aeaweb.org/doi/pdf/10.1257/jep.29.4.61), and we know how much is lost due to excessive trading. What about market researchers, who are one step away? One type of study they do is market sizing: estimating, among other things, the total available market (TAM) for a given good or service. We might expect them to be too bullish, betting that a market is bigger than it really is. But validating such an estimate is harder - many times, the TAM is never realized. Here's how we could empirically test for overconfidence: Take an industry like education. Segment it by different features - by grade level, online vs. hybrid, public vs. private, etc. Look for estimates of both *overall* TAM and TAM for each segment. Compare these two when added up. As [Don Moore](../books/perfectly-confident) might suggest, people who zero-in on their specific case and don't take the outside view may end up being biased.
 
 ## Bikeshare Surge Pricing 🚲
 Ride share programs are well-known for using surge pricing to adjust demand and supply across time. Bike sharing apps like Lyft should do the same, except based on location instead of time. When I try to bike around campus, there's an annoying imbalanced of bikes. On the west of campus, there's an abundance of bikes. On the east side, empty docks abound. The reason? The campus *slopes down* from east to west, so one way is a speedy, smooth glide, while the other is a pain in the ass. Lyft should price based off of location and altitude so that there's bikes at Haas that I use to fly home.

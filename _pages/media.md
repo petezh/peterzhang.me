@@ -12,12 +12,16 @@ News:
 * [The Economist](https://www.economist.com/podcasts): A collection of podcasts covering U.S. politics, global events, and financial news.
 * [3 Martini Lunch](https://www.nationalreview.com/podcasts/three-martini-lunch/): Funny daily conservative political commentary.
 
-Learning:
+Economics/Psychology/Psychology:
 * [Freakonomics Radio](https://freakonomics.com/archive/): The lovely Stephen Dubner teaches you everything.
 * [No Stupid Questions](https://freakonomics.com/nsq/): Dubner's weekly banter with psychologist Angela Duckworth.
 * [Freakonomics, M.D.](https://freakonomics.com/freakonomics-md/): A medical spinoff hosted by Bapu Jena.
 * [Planet Money](https://www.npr.org/sections/money/): All-things-economic from NPR.
-* [Hidden brain](https://www.npr.org/series/423302056/hidden-brain): Story-based explorations of psychology concepts.
+* [Hidden Brain](https://www.npr.org/series/423302056/hidden-brain): Story-based explorations of psychology concepts.
+* [Invest Like the Best](https://podcasts.apple.com/us/podcast/invest-like-the-best-with-patrick-oshaughnessy/id1154105909): Interviews with leading investors with Patrick O'Shaughnessy.
+* [Business Breakdowns](https://podcasts.apple.com/us/podcast/business-breakdowns/id1559120677): Deep dives into businesses from all industries.
+
+Philosophy:
 * [Philosophize This](https://www.philosophizethis.org/): Well-researched, casual introductions to diverse philosophical figures.
 * [Why Theory](https://podbay.fm/p/why-theory): Two Lacanians psychoanalyze society, media, and each other.
 

@@ -5,6 +5,9 @@ excerpt: "Currently on my mind."
 author_profile: true
 ---
 
+## Finishing Weak 🔚
+Whenever I write a review, the last fourth is always the hardest. I'm almost there, and I already have a lot of good content. Why not slack a little on notes for the last chapter? [Ego depletion](https://www.sciencedirect.com/topics/psychology/ego-depletion) suggests that willpower is a limited resource that decays over time. It's been studied extensively in lab tasks, with mixed conclusions. But what about similar tasks in the real world with a defined "endpoint?" Do book summaries get more sparse as the chapters go on? Do people document code less as they wrap up a project? Can we quantify when and how much people "slack" as they reach the finish line?s
+
 ## Chess Dataset ♟️
 It must be an [underused dataset](https://www.kaggle.com/datasnaek/chess). Performance in chess games can tell us a host of things about persistance, general intelligence, and executive control. For example, how many lost games until someone gives up for the day? Is the hot hand a *thing* in chess? Did the general public get better or worse at chess after COVID-19 hit? What about after daylight savings?
 

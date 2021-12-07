@@ -5,10 +5,9 @@ permalink: /books/bottle-of-lies
 rating: 6
 tags:
   - book review
-  - decision making
-  - psychology
+  - health care
   - economics
-  - public policy
+  - development
 ---
 
 *Bottle of Lies* is the product of Katherine Eban's 10-years long investigation into the market for fake drugs. The book is a thrilling narrative that follows a whistleblower at an Indian pharmacuetical manufacturers who uncovers an illegal falsified drug operation. The scale of the fraud - and how long it took to stop it - is frightening and informative.

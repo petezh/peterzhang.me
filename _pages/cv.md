@@ -40,13 +40,13 @@ Skills
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-
 Awards
 ======
   * November 2021: [Baidu x VSS Case Competition](https://www.facebook.com/events/1218686891977031), 3rd Place
   * November 2021: [DSS x NIB Datathon for Social Good](https://www.facebook.com/events/933047190947185?), 1st Place, [Submission](https://deepnote.com/project/DSG-2021-hwkWxyo9TJ2UY0W82_n-Vg/%2F01_notebook.ipynb)
   * October 2021: [Gates Foundation Case Competition](https://www.facebook.com/events/833366260673950), Finalist
   * August 2021/2020: UC Berkeley [Leadership Award](https://alumni.berkeley.edu/community/scholarships/leadership-award)
+  * April 2021: [Mastercard Case Competition](https://www.facebook.com/groups/892224561557976), 3rd Place
   * October 2020: University of Pennsylvania Tournament, Open Semifinalist
   * June 2020: [National Speech and Debate Tournament](https://s3.amazonaws.com/tabroom-files/tourns/15780/results/20212/2020-HS-Nationals-Results-Packet.pdf), 11th Place & 6th Speaker in Lincoln-Douglas
   * April 2021: [Venture Capital Investment Competition](https://www.vcic.org/category/year/2021/), National Finalist

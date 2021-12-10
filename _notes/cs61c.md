@@ -257,7 +257,7 @@ The `R` format is register-register arithmetic/logic, `I` format is register-imm
 
 # CALL
 
-An interpreter executes other programs. Language **translation** let's translate a high-level language to a lower-level language to increase performance. Generally, interpreters are easier to write, but they are slower. Trasnalated code is almost always more efficient.
+An interpreter executes other programs. Language **translation** let's us translate a high-level language to a lower-level language to increase performance. Generally, interpreters are easier to write, but they are slower. Trasnalated code is almost always more efficient.
 
 A **compiler** takes high-level language code as input (e.g. foo.c) and outputs assembly level language code (e.g. foo.s), which  may contain psuedo-instructions. The **lexer** turns the input into tokens, while the **parser** compiles an abstract syntax tree that recognizes problems in program structure. Semantic analysis and optimization checks for errors and reorganizes code. Code generation outputs the assembly code.
 
@@ -286,11 +286,14 @@ Almost every processor is a synchronous digital system. All operations and commu
 
 nFET assigns 0 when 1 (bottom up). pFET assigns 1 when 0 (top down). There are physical delays from input to output change. CMOS consume power proportional to the clock frequency.
 
-## Datapath and Single-Cycle Control
+Final
+===
+
+# Datapath and Single-Cycle Control
 
 RISC-V machines execute on instruciton per tick. The program counter  points to a place in instruction memory, which fetches instruction components, decodes/reads register, executes the instruction, and writes to memory.
 
-# Datapath
+## Datapath
 
 Each instruction reads and updates the state. The register files (regfiles) holds 32 registers * 32 bits. The program counter (PC) holds the address of the current instruction. The memory holds instructions (IMEM) and data (DMEM) in a 32-bit byte-addressed space. 
 
@@ -298,4 +301,258 @@ At every clock tick, the processor executes an instruction. Current state output
 
 The phases are instruction fetch, decode/register read, execute in ALU, store in memory, write to registers. Separate inputs select write enable and function choice.
 
+The clk-to-q delay is the time between the clock trigger and the time that the Q output gets updated to a new value. The setup time is how long the input needs to be steady before the clock trigger, and the hold time is how long the input needs to be steady after the clock trigger.
 
+The critical path equation is:
+
+$$T \geq \tau_{\text{clk}\to \text{Q}} + \tau_{\text{CL}} + \tau_{\text{setu$$
+
+## FSM
+
+Sequential circuits with feedback are often modeled as finite state machines, where each cycle the next state is based on the current inputs.
+
+## Pipelining
+
+Pipelining can't improve **latency**, but it *can* increase **throughput**. At any given time, resources are occupied by different instructions. Since the time of each cycle is only limited by the slowest stage, the cycle time is decreased. A common five stage pipeline is `IM`, `Reg`, `ALU`, `DM`, `Reg`.
+
+## Hazards
+
+A couple types of hazards are possible when pipelining. **Structural hazards** arise from multiple instructions attempt to use the same physical resource. Multiple ports for each register can enable instructions to read and write simultaneously. Instructions and data memories must be separated, or at least in caches.
+
+A **data hazard** can occur in two scenarios. The first occurs when instructions read and write to the same register. Sometimes, the write's `Reg` stage will come two cycles after the read instruction's `Reg` stage. One solution is to bubble, stalling the dependent instruction. Another is to arrange code in a way to avoid consequetive write/reads. A smart solution is forwarding/bypassing, where the operand is grabbed from the previous pipeline stage when `rd` and `rs1`/`rs2` indicate a conflict.
+
+![](/images/classes/cs61c/forwarding.png)
+
+With loads, the operand isn't available until after `DMEM`, so forwarding requires a bubble.
+
+A **control hazard** occurs when instructions are executed inspite of an intended branch. A similar solution to forwarding is possible, where if a branch is necessary, mistaken instructions are killed off. A branch prediction cache can improve performance by assuming that branch decisions tend to cluster together.
+
+## Superscalars
+
+Superscalar processors create multiple pipeline and rearrange code to achieve greater performance.
+
+# Caches
+
+## Accesses
+
+Memory accesses tend to occur at the same place and the same time. Instruction fetches, stack access, and data accesses tend to have nice patterns. But pointer chasing when working with objects often makes it impossible to take advantage of locality.
+
+When accessing memory with a cache:
+1. The processor issues some address.
+2. The cache checks for a copy of data with that address.
+3. If it finds a match, it returns it to the processor.
+4. If it doesn't, it sends the address to memory. Memory sends the data to the cache, and the cache replaces a word with the new data. The data is sent to the processor.
+
+Blocks of words in a cache are always aligned, so the last two binary digits are always `00` and don't need to be compared.
+
+## Block Size and Associativity
+
+Blocks can be made bigger or smaller. If each block is larger than a word, then part of the address must encode a block offset.
+
+Comparisons are expensive, so tags can be grouped into sets, where bits in the address encode a set number.
+
+![](/images/classes/cs61c/address.png)
+
+The **size of index** is log2 of the number of sets. The **block offset** is log2 of number of bytes per block. The size of hte tag is the address size - size of index - block offset.
+
+There are three levels of associativity:
+1. Fully associative - the block can go anywhere, with no index.
+2. Direct mapped - each block can go one place, with no tag.
+3. N-way set associative - with N places for each block.
+
+## Handling Stores
+
+There are two policies for cache hits:
+
+1. **Write-through**: write cache and through the cache to memory every time. A write buffer updates memory in parallel to the processor. Simple and reliable, but slower.
+2. **Write-back**: write the cache block to memory only when evicted. Blocks have a "dirty" bit that indicates whether if we wrote to the block. Reduces traffic but is more complex.
+
+For cache misses, the data is written to the main memory and may (**write allocate**) or may not (**no write allocate**) be written to cache.
+
+Common combinations are:
+- Write through and no write allocate
+- Write back with write allocate
+
+## Eviction
+
+There are two policies for evictions:
+
+1. Random replacement - hardware picks random block.
+2. Least recently used - hardware tracks access history and boots the oldest.
+
+The 3 sources of cache misses are:
+- Compulsory: cold start, first reference
+- Capacity: cache can't contain all blocks accessed by the program, solved by an infinite cache
+- Conflict/Collision: Multiple memory locations are mapped to the same cache set, misses that would've been avoided with a fully associative cache.
+
+## Multilevel Caches
+
+Caches can be combined to reduce miss penalty. The global miss rate is the fraction of references that miss some level of a multilevel cache, while a local miss rate is specific to a level.
+
+## Performance
+
+The hit rate is the fraction of accesses that hit the cache. The miss rate is 1 - hit rate. The miss penalty is the time to replace a block in a lower level of memory. The hit time is the time to access cache memory. The average memory access time (AMAT) is time for a hit + miss rate * miss penalty.
+
+The cache capacity is associativity times # of sets times block size. The number of cache lines is associativity times # of sets.
+
+Cache design attempts to reduce the time to hit the cache, the miss rate, and the miss penalty. Higher associativity increases hit time, decreases miss rate, and doesn't affect miss penalty. Higher entries increases hit time, decreases the miss rate, and leaves miss penalty unchanged. Increasing block size doesn't affect hit time, increases miss rate in the long term, and doesn't affect miss penalty.
+
+Striding accesses (accessing every i-th element) is designed to break caches. If the `strade * sizeof(int) = block_size`, then only a single entry in each cache line is used.
+
+Sometimes, an array doesn't fit inside the cache. If, in a nested loop, both arrays don't fit in the list, one solution is to block off both for loop's iterations.
+
+Exceeding capacity is so costly that sometimes a 64-entry victim cache is used to store recently evicted blocks.
+
+When multiple processors are writing the same data, we want **coherence**, which means that if processor A writes to memory location L, within time T, all other processors will see the updated data. Processor A will broadcast to the other processor that it is writing L, telling them to invalidate the entry in their cache with the dirty bit.
+
+A coherence miss occurs when two processes access the same data. Some multiprocessors use a shared cache to avoid the problem. A proper program structure can also avoid the issue.
+
+# Operating Systems
+
+## Sharing
+
+The **operating system** mediates interactions between programs and with the outside world. The OS also gives each process isolation...
+1. Sharing time via **context switching**
+2. Sharing space via **virtual memory**
+
+Hardware translates virtual addresses into physical addresses, establishes protection and privileges, and enables traps and interrupts.
+
+## Traps and Interrupts
+
+Control and status registers are special registers that enforce privileges. An **interrupt** is caused by something external to the current progrma. An **exception** is caused by something during the execution of a program. A **trap** is the act of servicing an interrupt or exception.
+
+Trap handling involves completion of instructions before the exception, a flush of current instructions, a trap handler, and optional return to the code. The hardware adjusts to supervisor mode when handling a trap, saving all the registers. An interrupt is expensive because it trashes the cache.
+
+## Context Switching
+
+With the timer interrupt, a processor can run multiple programs simultaneously. A similar strategy works for IO devices, which usually have a devoted section of memory. Since I/O devices run at different rates than the processor, the processor can "poll" I/O devices for data. The alternative to polling is interrupts, where an I/O devices interrupts the current program whenever necessary. Interrupts can be faster when there is little to no I/O.
+
+**Direct memory access** (DMA) for I/O devices means the CPU only has to initiate data transfers.
+
+## Disks & Networks
+
+Solid state drives are much faster than disks because there's much lower seek time.
+
+Networks rely on links to connect routers and switches. Shared nodes are one-at-a-time, while switches accomodate pairs. The payload of a message is surrounded by header and trailer. Protocols are package structures/control commands that manage communication. TCP/IP gaurantees reliable, in-order delivery and is widely used.
+
+## Virtual Memory
+
+**Virtual memory** gives each program the illusion of a full memory address space. Dynamic address translation enables multiprocessing, location independence, and protection. A **page table** stores the physical addresses of the base of each page of memory.
+
+![](/images/classes/cs61c/page_table.png)
+
+Page tables are kept in main memory. In the case of a page fault, a page is assigned in DRAM and disk memory, if it exists, is copied over. If no unused page is available, it is evicted with a write-back policy. A **hierarchical page table** can drastically reduce memory usage.
+
+**Translation lookaside buffers** are caches for page tables. RISC-V has the hardware walk the page table whenever there's a TLB miss and updates the TLB.
+
+![](/images/classes/cs61c/translation.png)
+
+Once the working set exceeds physical memory, the system begins thrashing. Tricks like copy-on-write duplication and shared memory communication can save memory and time,.
+
+# Optimization
+
+## Amdahl's Law
+
+The amount of speedup is a function of the speedup portion $F$ and speedup $S$.
+
+$$Speedup = \frac{1}{(1-F) + F/S}$$
+
+## Parallel Processing
+
+There are two appraoches to parallelism:
+1. Multiprogramming - run multiple independent programs in parallel.
+2. Parallel computing - run one program faster.
+
+Single-Instruction/Multiple-Data Stream (SIMD) is one way to do parallel computing. Intel's SIMD data types let you process 4 values at a time.
+
+## Unrolling
+
+Unrolling can further improve performance by avoid pipeline hazards. Instead of processing one instruction per iteration, include multiple (e.g. 4) of the same instruction.
+
+## Blocking
+
+Blocking can take better take advantage of the cache by performing operations on local values in a chunk. It's often useful for subdividing matrices.
+
+## Multiprocessing
+
+Multiprocessing involves multiple threads, which are sequential flows of instructions. Each thread accesses the same memory. Each core provides hardware threads, while operating systems multiplex software threads onto the hardware threads. Hardware multiprocessing involves multiple copies of PCs and registers. **Multithreading** improves utilization of existing processors while **multicore** involves duplicate processors that share an outer cache.
+
+Threads can set off a **data race** if threads are accessing the same memory and at least one is writing. One solution is to lock access to a region, but two threads could both lock memory at the same time. One solution is **read/write pairs**, with load reserved and store conditional (only executes if the location hasn't changed). An alternative is **atomic memory operations**, which store a duplicate of a value before performing an operation, letting the operation complete in a single step.
+
+**Deadlock** is system state in which progress is impossible because everything is locked waiting for something else. Locks can help with limiting parallelism.
+
+OpenMP is a langauge extension used for multi-threaded shared memory parallelism. The fork-join model creates a team of parallel threads that synchronize after they each compelte their instructions. Pragmas are the C preprocessor mechanism for langauge extensions.
+```c
+#pragma omp parallel private {x}
+{
+/* code goes here */
+}
+```
+Set number of threads with `omp_set_num_threads(x);`.
+
+When working with a for loop, a reduction specifies that 1 or more variables that are private to each thread are subject of reduction operation at end of parallel region.
+
+```c
+double avg, sum=0.0, A[MAX]; int i;
+#pragma omp for reduction(+ : sum)
+for (i = 0; i <= MAX ; i++) {sum += A[i];}
+avg = sum/MAX;
+```
+
+Multicores share a physical address space and coordinate/communicate through shared variables. Each CPU has a cache to improve performance. To keep caches coherent (agree on values), processors notify each other whenever they have cache misses or writes. Some blocks are shared, which can be represented as an additional bit. The states are:
+
+1. Shared: Up-to-date, others have a copy (valid, shared)
+2. Modified: Up-to-date, changed, no other cache has a copy (valid, dirty)
+3. Exclusive: Up-to-date, no other copies (valid) - don't need to broadcast when I write
+4. Owner: Up-to-date, others have a copy, memory not up to date (valid, dirty, shared)
+
+# Dependability
+
+## Redundancy
+
+3 types of digital design faults:
+1. **Design Bugs**: Mistakes in function, timing, power draw corrected at design time via testing.
+2. **Manufacturing Defects**: Impurities, breaking design rules, statistical variations, tested post-production.
+3. **Runtime Failures**: Hart faults like aging and soft faults like interference.
+
+Redundancy in data centers, routes, disks, etc. to be **fault** tolorant; can be spatial (e.g. multiple risks) or temporal (e.g. rerunning code). Key dependability metrics:
+- Reliability: Mean Time To Failure (MTTF)
+- Service interruption: Mean Time To Repair (MTTR)
+- Mean time between failures (MTBF)
+- MTBF = MTTF + MTTR
+- Availability = MTTF / (MTTF + MTTR)
+- Annualized Failure Rate (AFR): Average failures per year
+
+## Error Detection
+
+Memory accidentally flips bits, but error detection/correction codes (EDC/ECC) protect against failures. Extra bits at the end of each data-word detect faults. **Parity bit** adds a bit to each word to make it even, letting it detect any odd number of errors.
+
+Error *correction* requires Hamming Codes, with the idea of finding the nearest valid code word. **Hamming distance** is the number of positions where words differ. 
+
+![](/images/classes/cs61c/hamming.png)
+
+Parity bits occupy power-of-two bit positions. Extra bits can be added to detect additional errors.
+
+## RAID
+
+Disks still have optimal storage density, so large projects usually deploy many disks. But, the MTTF decreases *logistically* with the number of disks:
+
+$$\text{Combined MTTF} = \frac{\text{Single MTTF}}{\text{# Disks}}$$
+
+Redundant arrays of inexpensive disks (RAID) enables high availability, with 6 levels:
+0. No redundancy
+1. Duplicate disk
+2. Hamming code, with data disks and check disks to store Hamming code parity bits
+3. Drive disks each have a parity bit, so on failure, use other disks to find failure
+4. 3 but striped across blocks
+5. 4 but parity is interleaved
+6. 2 blocks for parity
+
+## Computing at Scale
+
+**Warehouse-scale computing** (WSC) involves 1U servers in a rack of 40-80 servers with ethernet, switched in an array of racks with expensive switches. Energy efficiency is important and measured as total building power (e.g. AC) over IT equipment power (servers, networks). Cooling savings from water sources or open air.
+
+**Cloud computing** is beneficial because of percieved isolation, low cost cycles, and elastic service. Cloud services can be SaaS, PaaS, or IaaS.
+
+**Request level parallelism**: Load balancers direct traffic to clusters, which in turn select a server.
+**Data level parallelism**: Map reduce, where a master copy assigns map and reduce tasks to idle workers, e.g. Apache Hadoop and Spark. Only works for some problems and involves overhead.

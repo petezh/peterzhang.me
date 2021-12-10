@@ -5,6 +5,12 @@ excerpt: "Currently on my mind."
 author_profile: true
 ---
 
+## Course Evaluations 🧪
+Every semester, I get at least 3 emails from the Berkeley administrators yelling at me to filling out my course evaluations. It looks like this:
+> Peter, Your course evaluations will be closing very soon. See below to view the precise deadline for your evaluation(s). We have not yet received feedback for all of your courses. We appreciate that the end of the term is very busy and hope you can take a few minutes now to share your feedback.
+We could reach out to the [Learning Environment + Tools](https://docs.google.com/presentation/d/1M16Ivrm-xOYIx4Kon2AF8W57SMFxDynn2bK5eyeXNww/edit#slide=id.gb81c5f641d_0_184) team at [Berkeley Research, Teaching, and Learning](https://rtl.berkeley.edu/about) with a project about raising course evaluation rates via [behavioral economics-inspired](https://sabeconomics.org/wordpress/wp-content/uploads/JBEP-3-2-2.pdf) tweaks to marketing emails. Imagine if the email read:
+> Hey Peter, You're part of a small minority of students who haven't turned in their course evaluations yet. We want to make your classes less stressful and more interesting, but we need your feedback. The opportunity will close in 2 days, so turn in your feedback *now*.
+
 ## Finishing Weak 🔚
 Whenever I write a review, the last fourth is always the hardest. I'm almost there, and I already have a lot of good content. Why not slack a little on notes for the last chapter? [Ego depletion](https://www.sciencedirect.com/topics/psychology/ego-depletion) suggests that willpower is a limited resource that decays over time. It's been studied extensively in lab tasks, with mixed conclusions. But what about similar tasks in the real world with a defined "endpoint?" Do book summaries get more sparse as the chapters go on? Do people document code less as they wrap up a project? Can we quantify when and how much people "slack" as they reach the finish line?s
 

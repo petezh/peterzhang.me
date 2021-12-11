@@ -19,17 +19,17 @@
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }} </a> 
     </h3>
 
-    {% if post.collection == 'experiences' and post.end_date %}
+    {% if and post.end_date %}
       <p> <b>{{ post.type }}</b>, {{ post.date | default: "1900-01-01" | date: "%m/%Y" }}—{{ post.end_date | default: "1900-01-01" | date: "%m/%Y" }}, <i>{{post.venue}}</i></p>
-      <p class="archive__item-excerpt" itemprop="description"> {{ post.excerpt }} </p>
-    {% elsif post.collection == 'experiences' %}
+    {% elsif post.collection == 'experiences'%}
       <p> <b>{{ post.type }}</b>, {{ post.date | default: "1900-01-01" | date: "%m/%Y" }}— Present, <i>{{post.venue}}</i> </p>
+    {% endif %}
+
+
+    {% if post.excerpt %}
       <p class="archive__item-excerpt" itemprop="description"> {{ post.excerpt }} </p>
     {% endif %}
 
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
     {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
   </li>
  </article>

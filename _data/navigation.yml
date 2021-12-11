@@ -10,5 +10,8 @@ main:
   - title: "Writings"
     url: /writings/  
 
+  - title: "Projects"
+    url: /projects/  
+
   - title: "CV"
     url: /cv/

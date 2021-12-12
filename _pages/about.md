@@ -31,3 +31,9 @@ On campus, I'm a consultant, account manager, and senior advisor for [Voyager Co
 ### Can We Talk?
 
 Yes! Have a question or criticism? A cool data science idea? Want advice (no quality guarantees)? Message me on [Facebook](https://www.facebook.com/petejzh/) or shoot me an [email](petez@berkeley.edu).
+
+### What Do You Look Like?
+
+Here's a picture of me in my natural habitat. Thanks to [Anjuman](https://www.instagram.com/anjuman.films/)!
+
+<img width="100%" src="/images/books/banner.jpeg">

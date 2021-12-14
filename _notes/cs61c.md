@@ -7,7 +7,7 @@ tags:
   - computer science
 ---
 
-I took these notes for [CS 61C: Machine Structures](https://cs61c.org/fa21/) taught by John Wawrzynek and Nicholas Weaver.s
+I took these notes for [CS 61C: Machine Structures](https://cs61c.org/fa21/) taught by John Wawrzynek and Nicholas Weaver. I highly recommend looking through the solutions to the Fall 2020 final.
 
 Midterm
 ===
@@ -278,6 +278,50 @@ A **loader** loads the program into memory and runs it. In order, the loader:
 
 In **dynamically linked libraries**, libraries are seprate fromt he program, reducing disk pace and send time; but it adds time overhead and complexity.
 
+Summary:
+
+Compiler
+• Its output may contain pseudoinstructions.
+• People sometimes do this stage by hand for optimization.
+• It deals with the syntax of C.
+• It deals with the semantics (i.e. meaning) of C.
+• Input file suffix is .c.
+• Output file suffix is .s
+
+Assembler
+• Its output is two information tables.
+• Its input may contain pseudoinstructions.
+• Its output is true assembly only.
+• It reads directives.
+• It replaces pseudoinstructions.
+• Its output is an object file.
+• Its output is machine language.
+• This stage makes two passes over its input.
+• Input file suffix is .s.
+• Output file suffix is .o.
+
+Linker
+• Its input is object code files (among other things).
+• Its input is information tables (among other things).
+• Its output is an executable.
+• One of its jobs is to take the text segments from .o files and concatenate them together.
+• One of its jobs is to take the code segments from .o files and concatenate them together.
+• Input file suffix is .o.
+• Typical output file is a.out.
+• It is often called the ‘bottleneck’ of the development process.
+• Its job is to read the relocation table.
+• Its job is to resolve references and fill in the absolute addresses.
+
+Loader
+• Its input is executable code.
+• Its output is a fully running program.
+• Typical input file is a.out.
+• This job is typically part of the operating system.
+• It creates a new address space for the program large enough to hold text and data segments.
+• It copies instructions into its address space.
+• It initializes machine registers.
+• It sets the PC.
+
 # SDS
 
 Almost every processor is a synchronous digital system. All operations and communication is coordinated by a central clock. All values are represented by a finite set of values (unlock analog circuits, which represent continuous ranges of values). Wires can take on 0 or 1 values via voltage. Binary representation is reliable and scalable; simply AND, OR, and NOT can represent all discrete functions. Adder logic can be implemented with xor gates
@@ -305,7 +349,9 @@ The clk-to-q delay is the time between the clock trigger and the time that the Q
 
 The critical path equation is:
 
-$$T \geq \tau_{\text{clk}\to \text{Q}} + \tau_{\text{CL}} + \tau_{\text{setu$$
+$$T \geq \tau_{\text{clk}\to \text{Q}} + \tau_{\text{CL}} + \tau_{\text{setup time}}$$
+
+Minimal clock period questions are about finding the *longest* path. Maximum hold time questions are about finding the *shortest* path.
 
 ## FSM
 
@@ -417,6 +463,13 @@ The **operating system** mediates interactions between programs and with the out
 
 Hardware translates virtual addresses into physical addresses, establishes protection and privileges, and enables traps and interrupts.
 
+• The OS is considered more trusted than the user level.
+• The user can request the OS to do certain operations through syscalls.
+• The OS is usually trusted.
+• The OS uses the same virtual memory space as the user does.
+• The OS has access to the same physical memory space as the user does.
+• It can be responsible for VA to PA translation.
+
 ## Traps and Interrupts
 
 Control and status registers are special registers that enforce privileges. An **interrupt** is caused by something external to the current progrma. An **exception** is caused by something during the execution of a program. A **trap** is the act of servicing an interrupt or exception.
@@ -426,6 +479,18 @@ Trap handling involves completion of instructions before the exception, a flush 
 ## Context Switching
 
 With the timer interrupt, a processor can run multiple programs simultaneously. A similar strategy works for IO devices, which usually have a devoted section of memory. Since I/O devices run at different rates than the processor, the processor can "poll" I/O devices for data. The alternative to polling is interrupts, where an I/O devices interrupts the current program whenever necessary. Interrupts can be faster when there is little to no I/O.
+
+Polling:
+• Always causes overall lower latency.
+• Allows for “always-busy” devices to continuously send input.
+• Deterministic response time per event.
+• Used to send checksum packets.
+
+Interrupts:
+• Preferred for devices that require less frequent servicing by the CPU.
+• Requires the device to signal for CPU to handle input.
+• Higher latency per event.
+• Frees up CPU for other events when no event is in progress.
 
 **Direct memory access** (DMA) for I/O devices means the CPU only has to initiate data transfers.
 
@@ -437,7 +502,7 @@ Networks rely on links to connect routers and switches. Shared nodes are one-at-
 
 ## Virtual Memory
 
-**Virtual memory** gives each program the illusion of a full memory address space. Dynamic address translation enables multiprocessing, location independence, and protection. A **page table** stores the physical addresses of the base of each page of memory.
+**Virtual memory** gives each program the illusion of a full memory address space. Dynamic address translation enables multiprocessing, location independence, and protection. A **page table** stores the physical addresses of the base of each page of memory. Each **page table entry** (PTE) has meta data and a **physical page number**, although it is often rounded up to guarantee alignment.
 
 ![](/images/classes/cs61c/page_table.png)
 
@@ -499,12 +564,15 @@ for (i = 0; i <= MAX ; i++) {sum += A[i];}
 avg = sum/MAX;
 ```
 
+## MOESI
+
 Multicores share a physical address space and coordinate/communicate through shared variables. Each CPU has a cache to improve performance. To keep caches coherent (agree on values), processors notify each other whenever they have cache misses or writes. Some blocks are shared, which can be represented as an additional bit. The states are:
 
-1. Shared: Up-to-date, others have a copy (valid, shared)
-2. Modified: Up-to-date, changed, no other cache has a copy (valid, dirty)
-3. Exclusive: Up-to-date, no other copies (valid) - don't need to broadcast when I write
-4. Owner: Up-to-date, others have a copy, memory not up to date (valid, dirty, shared)
+- **Modified**: This cache has the only valid copy of the cache line, and has made changes to that copy.
+- **Owned**: This cache is one of several with a valid copy of the cache line, but has the exclusive right to make changes to it—other caches may read but not write the cache line. When this cache changes data on the cache line, it must broadcast those changes to all other caches sharing the line. The introduction of the Owned state allows dirty sharing of data, i.e., a modified cache block can be moved around various caches without updating main memory. The cache line may be changed to the Modified state after invalidating all shared copies, or changed to the Shared state by writing the modifications back to main memory. Owned cache lines must respond to a snoop request with data.
+- **Exclusive**: This cache has the only copy of the line, but the line is clean (unmodified).
+- **Shared**: This line is one of several copies in the system. This cache does not have permission to modify the copy (another cache can be in the "owned" state). Other processors in the system may hold copies of the data in the Shared state, as well. Unlike the MESI protocol, a shared cache line may be dirty with respect to memory; if it is, some cache has a copy in the Owned state, and that cache is responsible for eventually updating main memory. If no cache hold the line in the Owned state, the memory copy is up to date. The cache line may not be written, but may be changed to the Exclusive or Modified state after invalidating all shared copies. (If the cache line was Owned before, the invalidate response will indicate this, and the state will become Modified, so the obligation to eventually write the data back to memory is not forgotten.) It may also be discarded (changed to the Invalid state) at any time. Shared cache lines may not respond to a snoop request with data.
+- **Invalid**: This block is not valid; it must be fetched to satisfy any attempted access.
 
 # Dependability
 
@@ -547,6 +615,17 @@ Redundant arrays of inexpensive disks (RAID) enables high availability, with 6 l
 4. 3 but striped across blocks
 5. 4 but parity is interleaved
 6. 2 blocks for parity
+
+Facts about RAID:
+- “redundancy through parity” - 2, 3, 4, 5
+- “a pro is having a small overhead” - 0, 2, 3
+- “fast small reads are a pro" -  0, 1, 4
+- “fast small writes are a pro” - 0, 1, 5
+- “higher throughput is a pro” - 4, 5
+- “parity is bit-striped” - 2
+- “parity is byte-striped" - 3
+- “parity is block-level striped" - 4, 5
+- “disks play a part in increasing reliability” - 1, 2, 3, 4, 5
 
 ## Computing at Scale
 

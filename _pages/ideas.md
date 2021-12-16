@@ -5,6 +5,14 @@ excerpt: "Currently on my mind."
 author_profile: true
 ---
 
+## Clubs for Cubs 🏘️
+
+A comprehensive and user-friendly UI that builds on [CalLink](https://callink.berkeley.edu/Organizations?categories=5115), providing additional information such as club activities, club size, application process (if any), websites, social media, points of contact, and—perhaps controverisally—percieved ranking based on reviews. New golden bears should be able to easily find a community that suits them, without surprises.
+
+## Dry Routing ⛱️
+
+Have you ever had to walk home in the rain? Or across campus to a class while its pouring? When I faced the situations in the past week, the real task was *dry routing*: finding a reasonably-lengthed path that minimized my exposure to rain. But I'm not familiar with lots of Berkeley, and I definitely don't remember which streets have overhangs. Google and Apple maps could be much more helpful if they could do dry routing for me, identifying which streets are most dry during a storm. Some approaches could be to use Google Street View data or to infer dry routes from pedestrian behavior (people probably walk faster in the rain, slower when dry).
+
 ## Course Evaluations 📧
 Every semester, I get at least 3 emails from the Berkeley administrators yelling at me to filling out my course evaluations. It looks like this:
 > Peter, Your course evaluations will be closing very soon. See below to view the precise deadline for your evaluation(s). We have not yet received feedback for all of your courses. We appreciate that the end of the term is very busy and hope you can take a few minutes now to share your feedback.

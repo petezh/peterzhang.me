@@ -1,6 +1,6 @@
 ---
 title: 'Notes: PUBPOL 141 / Behavioral Economics for Public Policy'
-date: 2021-12-15
+date: 2021-12-17
 permalink: /notes/pubpol141
 tags:
   - class notes

@@ -15,7 +15,7 @@ Laurence Gonzales' *Survivng Survival* is a sequel to his [*Deep Survival*](/boo
 
 Here's the [paperback](https://www.amazon.com/Surviving-Survival-Art-Science-Resilience/dp/0393346633) and [audiobook](https://www.audible.com/pd/Surviving-Survival-Audiobook/B00COR4KDA).
 
-**Utility**: ⭐⭐ (3/5)
+**Utility**: ⭐⭐⭐ (3/5)
 
 At first, the book may seem like any other thriller. Although interesting, it's hard to see why the lessons about post-traumatic resilience would apply to your life. What ar ehte chances that you'll get mauled by a bear, or bitten by a shark? But as the book closes, Gonzales points out that (empirically,) nearly everyone will undergo a traumatic event in their lifetimes. Leading the way, he situates the lessons he teaches in the context of his own life.
 

@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-For a summary, please reference my [resume](../files/resume.pdf).
+For a summary, please reference my [resume](https://github.com/petezh/ModuLatex-Resume/blob/master/resume-general/Peter_Zhang_Resume.pdf).
 
 Education
 ======

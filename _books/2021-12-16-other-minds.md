@@ -12,7 +12,7 @@ tags:
 Peter Godfrey-Smith's *Other Minds* is a book about octopuses. It is also a book about evolution and conciousness. Starting at the intimate contact between a scuba diver and an octopus, the book journeys in and out of the ocean, backwards through millions of years of time, and concludes with comments on the future of the sea.
 
 
-<img align="right" width="30%" src="https://images-na.ssl-images-amazon.com/images/I/91YUsUgrF8L.jpg">
+<img align="right" width="30%" src="/images/books/other_minds.jpeg">
 
 Here's the [paperback](https://www.amazon.com/Other-Minds-Peter-Godfrey-Smith-audiobook/dp/B06WW5K91W/ref=sr_1_1?crid=2WUUFTW4LN57V&keywords=other+minds&qid=1638952235&sprefix=other+minds%2Caps%2C395&sr=8-1) and [audiobook](https://www.audible.com/pd/Other-Minds-Audiobook/B06X9DK32S).
 

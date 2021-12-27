@@ -7,7 +7,58 @@ tags:
   - public policy
 ---
 
-I took these notes for PUBPOl 141: Behavioral Economics for Public Policy taught by Dan Acland.
+I took these notes for PUBPOl 141: Behavioral Economics for Public Policy taught by Dan Acland. Awesome class.
+
+Relevant Freakonomics Episodes
+===
+
+**Overview**
+
+-   [Should We Really Behave Like Economists Say We Do?](https://freakonomics.com/podcast/really-behave-like-economists-say/) - Fun introduction to behavioral economics with Thaler.
+
+**Retirement savings**
+
+-   [Everything You Always Wanted to Know About Money (But Were Afraid to Ask)](https://freakonomics.com/podcast/everything-always-wanted-know-money-afraid-ask-2/) - Why saving for retirement is hard (even for NFL players), paired with practical advice.
+
+-   [Is America Ready for a "No-Lose Lottery"?](https://freakonomics.com/podcast/is-america-ready-for-a-no-lose-lottery-update/) - A savings device that takes advantage of loss aversion, overweighting small probabilities, and the fun of gambling.
+
+**Consumer finance**
+
+-   [Are Payday Loans Really as Evil as People Say?](https://freakonomics.com/podcast/payday-loans-really-evil-people-say/)  - A deep dive on the academic debate, with a discussion of potential problems with funding sources on both sides.
+
+**Health**
+
+-   [Do As Docs Say, Not As They Do](https://freakonomics.com/podcast/do-as-docs-say-not-as-they-do/) - Even doctors fail to implement their own advice; the value of information is limited.
+-   [What Do Grocery Store Prices and Heart Surgery Have in Common?](https://freakonomics.com/podcast/what-do-grocery-store-prices-and-heart-surgery-have-in-common/) - Answer: left digit/salience bias!
+-   [Which Incentives Are Best at Boosting Vaccination, and Why?](https://freakonomics.com/podcast/which-incentives-are-best-at-boosting-vaccination-and-why/) - Conversation with Angela Duckworth, with discussions on altruism and heuristics.
+
+**Nudges**
+
+-   [How to Save $32 Million in One Hour](https://freakonomics.com/podcast/how-to-save-32-million-in-one-hour-ep-397/) - On the UK's Nudge Unit and a smaller but similar project at Penn.
+
+-   [All You Need is Nudge](https://freakonomics.com/podcast/all-you-need-is-nudge/) - An interview with Thaler on the relevance of nudges in a post-COVID 19 age.
+-   [Many more episodes](https://freakonomics.com/podcast-tag/nudge/).
+
+**Paternalism**
+
+-   [From Push to Nudge](https://freakonomics.com/2008/04/from-push-to-nudge-a-qa-with-the-authors-of-the-latter/) - Q&A with Thaler and Sunstein on where to draw the "paternalism" line. It's a written Q&A, but in my mind, students will have enjoyed the podcasts enough to give the print format a try.
+
+**Environment**
+
+-   [How Stupid is Our Obsession with Laws?](https://freakonomics.com/podcast/stupid-obsession-lawns/) - Very stupid and selfish. A classic externality.
+-   Show and Yell - The Prius effect: how the Prius' distinct ability to "signal" a green commitment made it the environmentalist's car of choice.
+
+**Poverty/Inequality**
+
+-   [Sendhil Mullainathan Explains How to Generate an Idea a Minute](https://freakonomics.com/podcast/sendhil-mullainathan-explains-how-to-generate-an-idea-a-minute-part-2/) - Mullainathan explains the thesis of *Scarcity* to Steven Levitt.
+
+-   [Is the World Ready for a Guaranteed Basic Income?](https://freakonomics.com/podcast/world-ready-guaranteed-basic-income/) - How a basic income could improve lies by resolving income security.
+
+-   [Are the Rich Really Less Generous Than the Poor?](https://freakonomics.com/podcast/rich-really-less-generous-poor/) - Altruism across sociodemographics and strategies for inducing altruism.
+
+**Benefit-Cost Analysis**
+
+-   [When Helping Hurts](https://freakonomics.com/podcast/when-helping-hurts/) - BCA applied to programs in education, criminal justice, and health, with surprising results.
 
 Behavioral Phenomena
 ===

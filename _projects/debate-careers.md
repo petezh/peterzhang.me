@@ -3,7 +3,7 @@ title: "Debate Careers"
 excerpt: "Analysis of high school debater career pathways."
 image: "/images/projects/e_debate_2/banner.jpg"
 collection: projects
-date: 2021-12-20
+date: 2021-12-28
 ---
 
 ## Introduction
@@ -28,9 +28,7 @@ Well, who's right? Sometimes it matters. Debaters like to make arguments about "
 
 ## Dataset
 
-So we collected a lot of it. We two weeks compiling a [database](https://docs.google.com/spreadsheets/d/17iOX450tddbqoxGwd3JU_ToF6Q3AtVn7_O2ytShZxcA/edit#gid=0) documenting the performance, argument style, and career trajectories of nearly every debater in the [2016 Tournament of Champions](https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=5019). Take a peak:
-
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQXNzztispODkYBgSxeuh1jiimSJxP15KHnz0VX4Tu7acEbYZIRA0TCKbGxzYYJHt126JXw9zuUhLVS/pubhtml?widget=true&amp;headers=true" height="500" width="100%"></iframe>
+So we collected a lot of it. We two weeks compiling a database documenting the performance, argument style, and career trajectories of nearly every debater in the [2016 Tournament of Champions](https://www.tabroom.com/index/tourn/index.mhtml?tourn_id=5019).
 
 Here's how we did it.
 
@@ -139,4 +137,4 @@ Putting it all together, here's a diagram relating event to undergraduate field 
 
 The overall picture: TOC debaters tend to go to prestigious schools. They prefer to study social science, although the details vary by event. Although finance and consulting are indeed popular, debaters do have a love for law, public policy, and politics. Finally, argument style does seem to be related to choice of career—the way you debate might matter.
 
-Thanks for reading! Please feel free to our [data](https://docs.google.com/spreadsheets/d/17iOX450tddbqoxGwd3JU_ToF6Q3AtVn7_O2ytShZxcA/edit#gid=0) and [code](https://deepnote.com/project/Debate-Career-Pathways-x962v7gSSeCgZLCdsvwE7A/%2Fnotebook.ipynb/#00004-70aff64d-652d-40ac-b6f2-6c4c84f63d0c). If you have a cool idea or question, reach out to Peter on [Facebook](https://www.facebook.com/petejzh/)!
+Thanks for reading! If you have a cool idea or question, reach out to Peter on [Facebook](https://www.facebook.com/petejzh/)!

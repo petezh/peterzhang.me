@@ -6,22 +6,32 @@ collection: projects
 date: 2021-12-28
 ---
 
+This article was originally published on [VBriefly](https://www.vbriefly.com/2021/12/28/where-are-they-now-debate-career-pathways/).
+
 ## Introduction
 
 The specter of college and beyond haunts the halls of high school tournaments. Hang around debaters and you'll hear conversations like this:
 
 > Debater 1: Do you think you'll go into law?
+
 > Debater 2: Nah, these days debaters just go onto finance or consulting.
+
 > Debater 1: Oh yeah! I heard someone describe finance as "PF in the real world."
+
 > Debater 2: And they all go to... 
+
 > Debater 1 and Debater 2, in unison: U-Chi-ca-go!
 
 Or maybe something like this:
 
 > Debater 1: Framework Cap again huh... do they actually believe in the communism stuff?
+
 > Debater 2: Probably not. I mean, half of them end up as business majors.
+
 > Debater 1: Really? But I thought debaters were really into liberal arts.
+
 > Debater 2: Not policy debaters... maybe LDers?
+
 > Debater 1: You think they teach tricks in college?
 
 Well, who's right? Sometimes it matters. Debaters like to make arguments about "subjectivity" and what happens after leave debate. Unfortnately, case studies and anecdotes only goes so far—answering these questions requires a lot more data.

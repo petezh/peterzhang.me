@@ -5,12 +5,13 @@ excerpt: "Currently on my mind."
 author_profile: true
 ---
 
-## Clubs for Cubs 🏘️
+## Chinese Names 🇨🇳
+Research has uncovered the impact of names on fields ranging from [academic success](https://www.aeaweb.org/articles?id=10.1257/089533006776526085) to [dating](https://journals.sagepub.com/doi/abs/10.1177/1948550611431644). But most of these studies were conducted on English names. Chinese (and [other languages](https://simple.wikipedia.org/wiki/Tone_language)) has *tones*, including rising and falling tones. And, [studies](https://journals.sagepub.com/doi/abs/10.1177/0075424215607061) have shown that the inflection of speech (e.g. in Californian uptalk) can influence percieved respect. In China, does the tone of your name affect your chances of success?
 
+## Clubs for Cubs 🏘️
 A comprehensive and user-friendly UI that builds on [CalLink](https://callink.berkeley.edu/Organizations?categories=5115), providing additional information such as club activities, club size, application process (if any), websites, social media, points of contact, and—perhaps controverisally—percieved ranking based on reviews. New golden bears should be able to easily find a community that suits them, without surprises.
 
 ## Dry Routing ⛱️
-
 Have you ever had to walk home in the rain? Or across campus to a class while its pouring? When I faced the situations in the past week, the real task was *dry routing*: finding a reasonably-lengthed path that minimized my exposure to rain. But I'm not familiar with lots of Berkeley, and I definitely don't remember which streets have overhangs. Google and Apple maps could be much more helpful if they could do dry routing for me, identifying which streets are most dry during a storm. Some approaches could be to use Google Street View data or to infer dry routes from pedestrian behavior (people probably walk faster in the rain, slower when dry).
 
 ## Course Evaluations 📧

@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 ## Podcasts 👂
+
 News:
 * [The Daily](https://www.nytimes.com/column/the-daily): Journalism by the New York Times with a slight left-leaning bend.
 * [FiveThirtyEight Politics](https://fivethirtyeight.com/podcasts/): The latest takes on political events from leading pollsters.
@@ -28,16 +29,19 @@ Philosophy:
 Interviews:
 * [People I Mostly Admire](https://freakonomics.com/pima/): Superstar guests from all walks of life.
 * [The Knowledge Project](https://fs.blog/knowledge-podcast/): Leading thinkers with insights on critical thinking.
+* [A Slight Change of Plans](https://podcasts.apple.com/us/podcast/a-slight-change-of-plans/id1561860622): How people undergo and adapt to change.
 
 Fun:
 * [Reply All](https://gimletmedia.com/shows/reply-all): A hilarious adventure through the Internet.
 * [Joe Rogan Experience](https://www.joerogan.com/): Funny martial artist talks about shrooms.
 
-## News 📰
+## Reading 📰
+
+News
 * [TechCrunch](https://techcrunch.com/): Pop tech news.
 * [The New Yorker](https://www.newyorker.com/): Longer, well-written pieces.
 
-## Subreddits 💻
+Subreddits:
 * [r/berkeley](https://www.reddit.com/r/berkeley/): School-spirited shitposts.
 * [r/QuantifiedSelf](https://www.reddit.com/r/QuantifiedSelf/): Home of fellow time trackers and OCD patients.
 * [r/Debate](https://www.reddit.com/r/Debate/): Lazy high schoolers ask for prep.

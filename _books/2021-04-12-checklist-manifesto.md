@@ -2,7 +2,7 @@
 title: 'Book Review: Checklist Manifesto'
 date: 2021-04-12
 permalink: /books/checklist-manifesto
-rating: 8
+rating: 7
 tags:
   - book review
   - decision making

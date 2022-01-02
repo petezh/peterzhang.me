@@ -2,7 +2,7 @@
 title: 'Book Review: On Grand Strategy'
 date: 2021-06-04
 permalink: /books/grand_strategy
-rating: 7
+rating: 6
 tags:
   - book review
   - decision making
@@ -17,7 +17,7 @@ Here's the [paperback](https://www.amazon.com/Grand-Strategy-John-Lewis-Gaddis/d
 
 **Utility**: ⭐⭐ (2/5)
 
-**Writing**: ⭐⭐⭐⭐⭐ (5/5)
+**Writing**: ⭐⭐⭐⭐ (5/5)
 
 Gaddis is a veteran writer, and it shows. His essays masterfully tie together cross-era dramas, building compelling and enchanting narratives. To be clear, this is a piece of historical literature. Following Clausewitz, Gaddis wants to replace frameworks and ideologies with a set of principles from across time and space. As a result, the message is sometimes unclear, and the writing unnecessarily verbose. Prepare to *focus* on the book.
 

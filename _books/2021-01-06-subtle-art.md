@@ -2,7 +2,7 @@
 title: 'Book Review: Subtle Art'
 date: 2021-01-06
 permalink: /books/subtle-art
-rating: 4
+rating: 3
 tags:
   - book review
   - self help
@@ -16,7 +16,7 @@ Here's the [paperback](https://www.amazon.com/Subtle-Art-Not-Giving-Counterintui
 
 **Utility**: ⭐ (1/5)
 
-**Writing**: ⭐⭐⭐ (3/5)
+**Writing**: ⭐⭐ (3/5)
 
 I take three main lessons:
 

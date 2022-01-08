@@ -6,9 +6,8 @@ author_profile: true
 ---
 
 ## Goals 🎯
-- List daily, weekly, and semesterly goals by context (e.g. recruiting, classes, health, etc.). Good goals are modest and measureable.
+- Use [Notion](www.notion.so) to list weekly and semesterly goals by context (e.g. recruiting, classes, health, etc.). Good goals are modest and measureable.
 - Set aside time each day to identify goals. It can coincide with shower time or walking to class. Spend time each week reflecting on progress towards goals and time allocation.
-- Use a simple notetaking app like [Google Keep](https://keep.google.com/) or a dedicated app like [Todoist](https://todoist.com/) ot manage and track your goals.
 - [Sharpen the saw](https://www.franklincovey.com/habit-7/). Don't let focusing immediate goals prevent growth and exploration of new things.
 
 ## Health and Wealth 🏃💰

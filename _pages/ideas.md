@@ -1,9 +1,18 @@
 ---
 permalink: /ideas/
 title: "Ideas"
-excerpt: "Currently on my mind."
+excerpt: "On my mind."
 author_profile: true
 ---
+
+## Sweat per Dollar 💦
+*Mental accounting* refers to inconsistent valuations of money. You're more likely to spend a bonus on jewelry than your monthly salary. But why? I can't find a convincing unified theory. I suspect it has to do with the effort exherted to earn the money, or the *sweat per dollar*. Whenever I consider buying a $8.35 Chipotle bowl, I think: "is this worth holding 30 minutes of office hours?" Here's how we could test it. Suppose there are 3 studies being conducted that pay the same amount to participants but vary in difficulty. Follow-up with the participants in a week. Do the people who worked "harder" to get the money tend to spend it more prudently?
+
+## Admissions Noise Audit 🎧
+In [*Noise*](../_books/2021-06-30-noise.md), Khaneman et al. cite a [study](https://onlinelibrary.wiley.com/doi/abs/10.1002/bdm.545) by Uri Simonsohn showing that cloudy weather induces college admissions officers to prefer and admit "nerdy" students. No surprise: the people in admissions panels are biased by arbitrary factors. But are they noisy? Could we conduct a nosie audit on a college admissions office, maybe at UC Berkeley?
+
+## Kantian Nudges 👈
+Nudges have a slight PR problem. Some libertarians and ethicists worry about the risk of paternalism in swaying people's choices. Mark D. White's [argument](https://link.springer.com/content/pdf/10.1057%2F9781137313577.pdf) is the closest I've seen to a well-formed philosophical argument. What would a more in depth, Kantian analysis suggest? More liberal readings of Kant, such as those articulated by [Ripstein](https://www.hup.harvard.edu/catalog.php?isbn=9780674035065), might have a different perspective than the libertarians.
 
 ## Chinese Names 🇨🇳
 Research has uncovered the impact of names on fields ranging from [academic success](https://www.aeaweb.org/articles?id=10.1257/089533006776526085) to [dating](https://journals.sagepub.com/doi/abs/10.1177/1948550611431644). But most of these studies were conducted on English names. Chinese (and [other languages](https://simple.wikipedia.org/wiki/Tone_language)) has *tones*, including rising and falling tones. And, [studies](https://journals.sagepub.com/doi/abs/10.1177/0075424215607061) have shown that the inflection of speech (e.g. in Californian uptalk) can influence percieved respect. In China, does the tone of your name affect your chances of success?
@@ -29,6 +38,8 @@ It must be an [underused dataset](https://www.kaggle.com/datasnaek/chess). Perfo
 
 ## Debater Careers 👔
 What exactly do high school debaters do post-graduation? Does *how* they debated inform their career trajectories? Take one or more year's worth of TOC entries. Segment them by debate type (PF/LD/Policy) and style (philosophy, policy, critical, tricks, flex). Use LinkedIn to identify their college major and internship/full-time industry. If the K debaters have it right, then LARPers/PFers should work more in finance/consulting etc. We can compile a table and make a [Sankey diagram](https://en.wikipedia.org/wiki/Sankey_diagram).
+
+This is now [reality](/projects/debate-careers/)!
 
 ## Market (Over?)sizing 🧺
 We know that investors are [overconfident](https://pubs.aeaweb.org/doi/pdf/10.1257/jep.29.4.61), and we know how much is lost due to excessive trading. What about market researchers, who are one step away? One type of study they do is market sizing: estimating, among other things, the total available market (TAM) for a given good or service. We might expect them to be too bullish, betting that a market is bigger than it really is. But validating such an estimate is harder - many times, the TAM is never realized. Here's how we could empirically test for overconfidence: Take an industry like education. Segment it by different features - by grade level, online vs. hybrid, public vs. private, etc. Look for estimates of both *overall* TAM and TAM for each segment. Compare these two when added up. As [Don Moore](../books/perfectly-confident) might suggest, people who zero-in on their specific case and don't take the outside view may end up being biased.

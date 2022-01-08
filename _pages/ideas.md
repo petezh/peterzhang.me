@@ -5,6 +5,9 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## Sleeper Hackers 😴
+Hackathons are notorious for pressuring participants to stay up, often for over 24 hours at a time. Caffeine cookies, candies, waters, and more flow freely from the stands. From a reader of [*Why We Sleep*](../_books/2021-06-16-why-we-sleep.md), the ritual is a health catastrophe. So do the data bear that out? How do participants feel 1 day after the event? Two days? How do measures of cognitive function change? How many don't even make it home, getting into accidents along the way?
+
 ## Sweat per Dollar 💦
 *Mental accounting* refers to inconsistent valuations of money. You're more likely to spend a bonus on jewelry than your monthly salary. But why? I can't find a convincing unified theory. I suspect it has to do with the effort exherted to earn the money, or the *sweat per dollar*. Whenever I consider buying a $8.35 Chipotle bowl, I think: "is this worth holding 30 minutes of office hours?" Here's how we could test it. Suppose there are 3 studies being conducted that pay the same amount to participants but vary in difficulty. Follow-up with the participants in a week. Do the people who worked "harder" to get the money tend to spend it more prudently?
 

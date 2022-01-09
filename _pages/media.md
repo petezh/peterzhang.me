@@ -5,6 +5,10 @@ excerpt: "Podcasts. News outlets. Subreddits."
 author_profile: true
 ---
 
+## Music 🎶
+
+Follow me on [Spotify](https://open.spotify.com/user/22iudb2kthetd53nbhw6t5mni?si=4abe9565c0ff4a51&nd=1)!
+
 ## Podcasts 👂
 
 News:
@@ -46,3 +50,8 @@ Subreddits:
 * [r/QuantifiedSelf](https://www.reddit.com/r/QuantifiedSelf/): Home of fellow time trackers and OCD patients.
 * [r/Debate](https://www.reddit.com/r/Debate/): Lazy high schoolers ask for prep.
 * [r/programming](https://www.reddit.com/r/programming): Latest news for CS nerds.
+
+## Lectures 📣
+
+* Robert Sapolsky's [*Human Behavioral Biology*](https://www.youtube.com/watch?v=NNnIGh9g6fA)
+* Greg LaBlanc's [*Behavioral Finance and Investment Strategy*](https://www.youtube.com/watch?v=ERDEozGpV74)

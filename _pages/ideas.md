@@ -5,6 +5,9 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## Lane Switching 🚘
+Investors trade [too much](https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/behavior%20of%20individual%20investors.pdf) and would often be better off holding on to their stocks. There are many expectations. Maybe they overreact to information, or excessively fear missing out. Do the same principles apply to switching lanes in heavy traffic? On a congested highway, I sometimes switch when I see a faster neighboring lane, only for that lane to slow down immediately after; I should just "hold" my current lane. What's the optimal way to weave between rush hour traffic?
+
 ## Sleepy Hackers 😴
 Hackathons are notorious for pressuring participants to stay up, often for over 24 hours at a time. Caffeine cookies, candies, waters, and more flow freely from the stands. From a reader of [*Why We Sleep*](../_books/2021-06-16-why-we-sleep.md), the ritual is a health catastrophe. So do the data bear that out? How do participants feel 1 day after the event? Two days? How do measures of cognitive function change? How many don't even make it home, getting into accidents along the way?
 

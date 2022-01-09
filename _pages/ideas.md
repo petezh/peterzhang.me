@@ -5,6 +5,17 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## Jogging Wind-downs 🏃
+Khaneman's famous studies on pain demonstrated that the peak and end of an experience dominate our retrospective evaluations. In the context of [jogging](https://www.outsideonline.com/health/training-performance/why-youll-race-again-even-though-it-hurts/), that might mean that two things are important: how painful was the steepest uphill, and how smooth was the wind-down? Perhaps people would have much brighter views of jogging if they ended each jog with a slow walk, basking in endorphins.
+
+## Debate Styles 🧥
+We previously compiled a large [database](https://github.com/petezh/Disclosure) of wiki data, where each debater is mapped to their citations. If we treat each debater as a "document," can we perform topic modeling on their citations and extract "types" of debaters? Would we see topics that resemble "philosophy," "kritiks," and so on?
+
+## Debate-Powered Research 🔌 
+Debate is a research powerhouse because of the competitive incentives to find the best arguments and the collaborative nature of teams. Put together, the LD debate community probably puts together literally tens of thousands of hours of research on each topic.
+
+What if we could harness that power for a pressing public policy question? Partner with a respectable policy institute like the Brookings Institute to host a free tournament with a large (maybe around $25,000) prize pool. There's an application: turn in all of your research. Subject matter experts judge the applications and debate, pressuring debaters to find the best research. [IPPF](https://www.ippfdebate.com/) is probably the closest existing model.
+
 ## Lane Switching 🚘
 Investors trade [too much](https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/behavior%20of%20individual%20investors.pdf) and would often be better off holding on to their stocks. There are many expectations. Maybe they overreact to information, or excessively fear missing out. Do the same principles apply to switching lanes in heavy traffic? On a congested highway, I sometimes switch when I see a faster neighboring lane, only for that lane to slow down immediately after; I should just "hold" my current lane. What's the optimal way to weave between rush hour traffic?
 

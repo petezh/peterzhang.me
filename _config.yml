@@ -83,7 +83,7 @@ author:
   name             : "Peter Zhang"
   avatar           : "profile.png"
   bio              : "Builder 🔧 Blogger ✏️ Bear 🐻"
-  location         : "Berkeley, CA"
+  location         :
   employer         : 
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
@@ -105,6 +105,7 @@ author:
   linkedin         : "pjz"
   orcid            : 
   pinterest        :
+  spotify          : "22iudb2kthetd53nbhw6t5mni?si=4abe9565c0ff4a51"
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :

@@ -5,6 +5,9 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## Chipotle-Starbucks Pairs 🌯
+There *always* seems to be a Starbucks next to Chipotle. Am I just imagining it? Luckily, there's free data on [Chipotle locations](https://www.kaggle.com/jeffreybraun/chipotle-locations) and [Starbucks locations](https://www.kaggle.com/starbucks/store-locations). Using geolocations, we can evaluate how likely Starbucks and Chipotles are to be within a given radius. To establish a baseline, we can use a random sample of general [fast food restaurants](https://www.kaggle.com/datafiniti/fast-food-restaurants).
+
 ## Jogging Wind-downs 🏃
 Khaneman's famous studies on pain demonstrated that the peak and end of an experience dominate our retrospective evaluations. In the context of [jogging](https://www.outsideonline.com/health/training-performance/why-youll-race-again-even-though-it-hurts/), that might mean that two things are important: how painful was the steepest uphill, and how smooth was the wind-down? Perhaps people would have much brighter views of jogging if they ended each jog with a slow walk, basking in endorphins.
 

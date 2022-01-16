@@ -5,6 +5,12 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## LinkedIn Experience Effects 👩‍💼
+Ulrike Malmendier is known for her study of [experience effects](https://www.nber.org/papers/w29074)–the unique inlfuence of personal experience on behavior above and beyond acquiring information. In a 2020 [keynote](https://www.youtube.com/watch?v=3_lYZwp667w), she laments not having more granular data on individual histories. Au contraire! LinkedIn provides fairly detailed employment histories of many CEOs, from [GE](https://www.linkedin.com/in/larry-culp/) to [Netflix](https://www.linkedin.com/in/reedhastings/). If a CEO previously saw a company through declines, will they be more prudent in their current role?
+
+## drivers license 🏁
+DMVs have [loosened](https://www.sciencedirect.com/science/article/pii/S0001457521004310) road test requirements to reduce COVID-19 risk. In Maryland, passing the test only requires you to park your car. Do lower standards for new drivers increase risk of [accidents](https://www.nhtsa.gov/data)? Does the adaptation still pass benefit-cost-analysis after considering these externalities? Are we really keeping teens like Olivia Rodrigo safe?
+
 ## Chipotle-Starbucks Pairs 🌯
 There *always* seems to be a Starbucks next to Chipotle. Am I just imagining it? Luckily, there's free data on [Chipotle locations](https://www.kaggle.com/jeffreybraun/chipotle-locations) and [Starbucks locations](https://www.kaggle.com/starbucks/store-locations). Using geolocations, we can evaluate how likely Starbucks and Chipotles are to be within a given radius. To establish a baseline, we can use a random sample of general [fast food restaurants](https://www.kaggle.com/datafiniti/fast-food-restaurants).
 

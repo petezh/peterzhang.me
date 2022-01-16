@@ -1,7 +1,7 @@
 ---
 title: 'Book Review: Your Brain on Exercise'
 date: 2022-01-13
-permalink: /books/range
+permalink: /books/your-brain-on-exercise
 rating: 5
 tags:
   - book review
@@ -16,9 +16,11 @@ Gary Wenk's *Your Brain on Exercise* is a slim, myth-busting survey on the benef
 Here's the [paperback](https://www.amazon.com/Range-Generalists-Triumph-Specialized-World/dp/0735214484) and [audiobook](https://www.audible.com/pd/Range-Audiobook/1984888439).
 
 **Utility**: ⭐⭐⭐ (3/5)
+
 Wenk has strong academic credentials and provides some helpful insights on what works and what doesn't. He provides evidence that light, aerobic exercise (e.g. walking) may be beneficial for cognitive health, while anaerobic exercise (e.g. weight lifting) may be harmful. Exercise is no cure-all for enriching the young, rejuvenating the old, curing the depressed, or recovering the injured. Wenk calmly recognizes the physical benefits of exercise, but seems to be overly antagonistic to exercise based on cognitive effects alone.
 
 **Writing**: ⭐⭐ (2/5)
+
 Most passages read fine as high school textbooks. Wenk is clear and varies up sentence structures. The bite-sized chapters also help. However, the content itself is simply dry. He doesn't do a good job of repackaging dense nuerochemical knowledge into clear, entertaining writing. I didn't particularly enjoy reading the book.
 
 Notes

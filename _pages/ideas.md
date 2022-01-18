@@ -5,6 +5,9 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## Unified Club App 1️⃣
+Consulting clubs, machine learning teams, software development groups, business frats—tens of student orgs, each with their own application that says the same dumb thing in slightly different ways. Let's strip down the app to the essentials (name, email, academics, resume) and let orgs pick out students to interview or invite to apply.
+
 ## LinkedIn Experience Effects 👩‍💼
 Ulrike Malmendier is known for her study of [experience effects](https://www.nber.org/papers/w29074)–the unique inlfuence of personal experience on behavior above and beyond acquiring information. In a 2020 [keynote](https://www.youtube.com/watch?v=3_lYZwp667w), she laments not having more granular data on individual histories. Au contraire! LinkedIn provides fairly detailed employment histories of many CEOs, from [GE](https://www.linkedin.com/in/larry-culp/) to [Netflix](https://www.linkedin.com/in/reedhastings/). If a CEO previously saw a company through declines, will they be more prudent in their current role?
 

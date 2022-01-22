@@ -5,6 +5,12 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## Police Stop 🚓
+Every day of senior year, I drove a 30-minute trudge down to high school along Rockville Pike. Whenever there was a police car, I was sure to be late by 20 or more minutes. Whether its an accident or a traffic violation, the arrival of the police dramatizes the situation, clogs up the roadways, and generally pisses everyone off. What are the economic costs to a police stop? Considering the benefits in terms of deterrence and assistance outweigh the harms?
+
+## Imperceptible Weights 🏋️
+So much of lifting is mental. *I bench 135. 155 is way too much.* No fear! Hollow out the barbell of a bench press and make a set of insertible half-pound weights. Secretly, of course. Have trainers slowly add 1 pound to the same 5x5 workout every day, and *voila*, underconfident lifters can steadily make progress.
+
 ## Unified Club App 1️⃣
 Consulting clubs, machine learning teams, software development groups, business frats—tens of student orgs, each with their own application that says the same dumb thing in slightly different ways. Let's strip down the app to the essentials (name, email, academics, resume) and let orgs pick out students to interview or invite to apply.
 

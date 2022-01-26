@@ -2,7 +2,7 @@
 title: 'Book Review: Influence'
 date: 2021-02-27
 permalink: /books/influence
-rating: 10
+rating: 9
 tags:
   - book review
   - psychology
@@ -16,7 +16,7 @@ Here's the [paperback](https://www.amazon.com/Influence-Psychology-Persuasion-Ro
 
 **Utility**: ⭐⭐⭐⭐⭐ (5/5)
 
-**Writing**: ⭐⭐⭐⭐⭐ (5/5)
+**Writing**: ⭐⭐⭐⭐ (4/5)
 
 <img align="right" width="30%" src="/images/books/influence.jpg">
 

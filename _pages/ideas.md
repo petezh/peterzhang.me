@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 ## Correcting Round Investing
-Strong evidence suggests that [investors](https://www.cairn.info/revue-finance-2018-1-page-71.htm?ref=doi) suffer from round number bias. I never hear an investor talking about "investing $1.69 million." Instead, they talk about "buying 50 shares" or "selling at $10." What if a hedge fund implement a procedure, where investors where forced to choose each digit independently: do you wish to buy 40 million? Or 41 million? 42? Would improving the granularity of judgements improve returns?
+Strong evidence suggests that [investors](https://www.cairn.info/revue-finance-2018-1-page-71.htm?ref=doi) suffer from round number bias. I never hear an investor talking about "investing $\$$1.69 million." Instead, they talk about "buying 50 shares" or "selling at $\$$0." What if a hedge fund implement a procedure, where investors where forced to choose each digit independently: do you wish to buy 40 million? Or 41 million? 42? Would improving the granularity of judgements improve returns?
 
 ## Police Stop 🚓
 Every day of senior year, I drove a 30-minute trudge down to high school along Rockville Pike. Whenever there was a police car, I was sure to be late by 20 or more minutes. Whether its an accident or a traffic violation, the arrival of the police dramatizes the situation, clogs up the roadways, and generally pisses everyone off. What are the economic costs to a police stop? Considering the benefits in terms of deterrence and assistance outweigh the harms?

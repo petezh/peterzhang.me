@@ -2,7 +2,7 @@
 title: 'Book Review: Fellow Creatures'
 date: 2021-12-04
 permalink: /books/fellow-creatures
-rating: 8
+rating: 7
 tags:
   - book review
   - philosophy
@@ -19,7 +19,7 @@ Here's the [paperback](https://www.amazon.com/Fellow-Creatures-Obligations-Anima
 
 The book is digestable and contributed to my views on animal rights. Her tight, step-by-step arguments will have you nodding along until the conclusion. The practical implications section is a highly insightful perspective on society, evolution, and human obligations. An important read for anyone interested in animals or animal rights.
 
-**Writing**: ⭐⭐⭐⭐ (4/5)
+**Writing**: ⭐⭐⭐ (3/5)
 
 Korsgaard is very thorough with her explanations. The book can occasionally read a little slow, particularly in theory-dense sections. Fortunately, the chapters can be read separately (they're designed to be independent), so readers should feel free to skip around. Many sections were emotionally powerful, asking the reader to empathize with an animal; those were my favorite passages.
 

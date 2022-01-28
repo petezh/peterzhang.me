@@ -2,7 +2,7 @@
 title: 'Book Review: Everything Store'
 date: 2021-06-21
 permalink: /books/everything-store
-rating: 9
+rating: 7
 tags:
   - book review
   - business
@@ -15,9 +15,9 @@ Brad Stone's *The Everything Store* is a close look at the e-commerce giant Amaz
 
 Here's the [paperback](https://www.amazon.com/Everything-Store-Jeff-Bezos-Amazon-ebook/dp/B00BWQW73E) and [audiobook](https://www.audible.com/pd/The-Everything-Store-Audiobook/B00FJJFO1C).
 
-**Utility**: ⭐⭐⭐⭐ (4/5)
+**Utility**: ⭐⭐⭐ (3/5)
 
-**Writing**: ⭐⭐⭐⭐⭐ (5/5)
+**Writing**: ⭐⭐⭐⭐ (4/5)
 
 Brad has a fluid and fast-paced writing style. Each paragraph slides perfectly into the next, creating the illusion of a continuous narrative from a slew of parallel and conflicting plot lines. He also sympathizes with the reader: you don't have to remember who everyone is (he provides helpful reminders) or sludge through every detail in Amazon's development (Brad focuses on funny highlights and important turning points). Overall, it was shockingly entertaining for a book that manages to be both a biography and a business case study.
 

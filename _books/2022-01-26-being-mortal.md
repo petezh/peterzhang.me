@@ -22,7 +22,7 @@ The book is terrifying because every reader knows that it will eventually, in th
 
 **Writing**: ⭐⭐⭐⭐ (4/5)
 
-Upholding his titel as a great physician-writer, Gawande made me cry several times in public. Unsurprising for a subject as intimate as the death of loved ones, but Gawande's warm and wise voice is the perfect narrator. What struck me the most is his focus on the people. He takes his time to bring his patients to life and, in doing so, demonstrates how medical providers ought to care for their fellow mortals.
+Upholding his title as a great physician-writer, Gawande made me cry several times in public. Unsurprising for a subject as intimate as the death of loved ones, but Gawande's warm and wise voice is the perfect narrator. What struck me the most is his focus on the people. He takes his time to bring his patients to life and, in doing so, demonstrates how medical providers ought to care for their fellow mortals.
 
 Notes
 ===

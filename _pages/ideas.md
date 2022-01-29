@@ -5,7 +5,10 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
-## Correcting Round Investing
+## Scientists and Surnames 👩🏽‍🔬
+Adopting a partner's surname is an important decision. Even more so for academics, who are often referred to as (Last Name, Year). Do female scientists and academics take a career hit after changing their surname? In particular, do newlyweds experience fewer citations in their new papers?
+
+## Correcting Round Investing 🟠
 Strong evidence suggests that [investors](https://www.cairn.info/revue-finance-2018-1-page-71.htm?ref=doi) suffer from round number bias. I never hear an investor talking about "investing $\$$1.69 million." Instead, they talk about "buying 50 shares" or "selling at $\$$0." What if a hedge fund implement a procedure, where investors where forced to choose each digit independently: do you wish to buy 40 million? Or 41 million? 42? Would improving the granularity of judgements improve returns?
 
 ## Police Stop 🚓

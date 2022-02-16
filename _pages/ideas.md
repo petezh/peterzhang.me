@@ -5,6 +5,11 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+
+## No Heights on Zoom 💂
+Tall people have an advantage in life, especially in terms of income. But [research](https://www.jstor.org/stable/10.1086/679675?seq=1#metadata_info_tab_contents) suggests that the underlying factor is nutrition—well-fed children are both taller, smarter, and more charming. I suspect that some of the effect is driven by bias (and I'm not *just* salty). COVID presents a natural experiment: comparing job prospects for tall people before and after going on Zoom could reveal just how much being tall helps you in an interview or in the workplace.
+
+
 ## Scientists and Surnames 👩🏽‍🔬
 Adopting a partner's surname is an important decision. Even more so for academics, who are often referred to as (Last Name, Year). Do female scientists and academics take a career hit after changing their surname? In particular, do newlyweds experience fewer citations in their new papers?
 

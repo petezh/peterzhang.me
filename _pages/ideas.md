@@ -5,6 +5,8 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## Lazy Learners 😪
+Every high school had them. Once they get into college, it's all about maintaining the minimum GPA to not get rescinded. So many people learn only because they have to. That's a problem, since few people disagree that [intrinsic motivation](https://eric.ed.gov/?id=ED369773) is important for learning. To test this theory, we could proxy the role of extrinsic/intrinsic motivations to learn by comparing high school grades before and after entering college.
 
 ## No Heights on Zoom 💂
 Tall people have an advantage in life, especially in terms of income. But [research](https://www.jstor.org/stable/10.1086/679675?seq=1#metadata_info_tab_contents) suggests that the underlying factor is nutrition—well-fed children are both taller, smarter, and more charming. I suspect that some of the effect is driven by bias (and I'm not *just* salty). COVID presents a natural experiment: comparing job prospects for tall people before and after going on Zoom could reveal just how much being tall helps you in an interview or in the workplace.

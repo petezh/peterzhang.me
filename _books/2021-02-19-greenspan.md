@@ -7,6 +7,7 @@ tags:
   - book review
   - economics
   - history
+  - biography
 ---
 
 

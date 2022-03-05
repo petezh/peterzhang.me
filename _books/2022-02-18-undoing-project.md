@@ -9,23 +9,22 @@ tags:
   - biography
 ---
 
-*Flash Boys* by Michael Lewis is a story about Wall Street dysfunction post-financial crisis. He documents the rise of high frequency trading, the adjacent, enabling institutions, and people who tried to stop it—the flash boys.
+ Michael Lewis' *Undoing Project* is a dual biography of Daniel Khaneman and Amos Tversky. The touching, personal narrative unveils the unique (and often cruel) circumstances that birthed their beautiful academic relationship. It is a meditation on scholarship and friendship.
 
-<img align="right" width="30%" src="/images/books/flash_boys.jpeg">
+<img align="right" width="30%" src="/images/books/undoing_project.jpeg">
 
-Here's the [paperback](https://www.amazon.com/Flash-Boys-Wall-Street-Revolt/dp/0393351599) and [audiobook](https://www.audible.com/pd/Flash-Boys-Audiobook/B00ICRLMWI).
+Here's the [paperback](https://www.amazon.com/Undoing-Project-Friendship-Changed-Minds/dp/0393254593) and [audiobook](https://www.audible.com/pd/The-Undoing-Project-Audiobook/B01KBM825G).
 
-**Utility**: ⭐⭐⭐ (3/5)
+**Utility**: ⭐⭐⭐⭐ (3/5)
 
-Lewis tells a fascinating story without delving too deep into the details. He gives great examples that illuminate how high frequency traders make money. He also provides a sensible introduction to the financial sector and types of firms. The unspoken theme is the most useful lesson of the book—that Wall Street professionals are often clueless.
+Lewis does provide a basic overview of biases and hueristics that is useful to new readers of the subject. But the deeper lessons have everything to do with the deep connections between scholarship and the authors that produced them. Although both were Isreali psychologists and certified geniuses, Khaneman and Tversky's divergent personalities were the seed for much conflict in their partnership. The messy relationship behind clean, typeset papers teaches us that so much of the academic is personal. It's a monument to both the power and struggle of collaboration.
 
-**Writing**: ⭐⭐⭐⭐ (4/5)
+**Writing**: ⭐⭐⭐⭐⭐ (5/5)
 
-The book masterfully weaves together storylines to assemble the group known as the flash boys. A thoroughly entertaining read, Lewis manages to imbue excitement into a subject as mundane as money management. Some of the plot jumps were a little jarring, but it was mostly smooth and always entertaining.
+I think this is Lewis' writing at its best. He is really forced to understand and develop two core characters which builds a depth of connection missing from other books (like *Flash Boys* or *The Premonition*). The pace and flow of the story are near perfect—a career journalist at his best!
 
 Notes
 ===
-- RBC is known as one of the nicer banks. A star employee, Brad Katsuyama, noticed that orders were behaving strangely—prices would rise just as a buy order was executed. He realized that HFT firms were racing to various exchanges and conducting arbitrage, so he wrote a tool with built-in delays to block them.
-- High frequency traders were protected by bnefical relationships with banks and lobbying in Washington. Banks would often grant traders access to their "dark pools"—private stock exchanges—for a fee, enabling them to skim money off of the bank's investors.
-- Russians are often found in the technology and algo departments of high frequency trading firms.
-- IEX was an exchange designed for fairness and subject to rigorous testing. Two partners at Goldman, realizing that they could never win the competition in speed, decided to give IEX a chance.
+- Both Danny and Amos were psychologists in the Israeli army and were shaped by Jewish identities. Even well into their academic careers, they returned to defend Israel and serve in the army.
+- Their relationship went through numerous ups and downs. Amos was percieved as charming and confident, while Danny appeared quiet and doubtful. Amos recieved a larger share of praise and recognition, causing deep resentment between the two.
+- The pair split shotly before Amos' death. Ultimately, Danny recieved the Nobel Prize for their joint work.

@@ -5,6 +5,9 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## Self-Grade Design ✍️
+Two intro CS courses at Berkeley, [EECS 16A](eecs16a.org) and [EECS 16B](eecs16b.org), both save time by having students grade their own homeworks. The readers then grade a subset of the problems and scale the rest of the grades by the discrepancy between "official" grades and self grades. In theory, if students put good faith effort into self-grades, this a cost-effective and usually-fair way of assigning grades. But I'm worried about (a) the extent and unfairness of noise and (b) the incentives to put an honest effort in self-grades. Under what conditions should students put in such an effort? And how unfair are these systems?
+
 ## Lazy Learners 😪
 Every high school had them. Once they get into college, it's all about maintaining the minimum GPA to not get rescinded. So many people learn only because they have to. That's a problem, since few people disagree that [intrinsic motivation](https://eric.ed.gov/?id=ED369773) is important for learning. To test this theory, we could proxy the role of extrinsic/intrinsic motivations to learn by comparing high school grades before and after entering college.
 

@@ -5,6 +5,16 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## Self-Grade Design ✍️
+Two intro CS courses at Berkeley, [EECS 16A](eecs16a.org) and [EECS 16B](eecs16b.org), both save time by having students grade their own homeworks. The readers then grade a subset of the problems and scale the rest of the grades by the discrepancy between "official" grades and self grades. In theory, if students put good faith effort into self-grades, this a cost-effective and usually-fair way of assigning grades. But I'm worried about (a) the extent and unfairness of noise and (b) the incentives to put an honest effort in self-grades. Under what conditions should students put in such an effort? And how unfair are these systems?
+
+## Lazy Learners 😪
+Every high school had them. Once they get into college, it's all about maintaining the minimum GPA to not get rescinded. So many people learn only because they have to. That's a problem, since few people disagree that [intrinsic motivation](https://eric.ed.gov/?id=ED369773) is important for learning. To test this theory, we could proxy the role of extrinsic/intrinsic motivations to learn by comparing high school grades before and after entering college.
+
+## No Heights on Zoom 💂
+Tall people have an advantage in life, especially in terms of income. But [research](https://www.jstor.org/stable/10.1086/679675?seq=1#metadata_info_tab_contents) suggests that the underlying factor is nutrition—well-fed children are both taller, smarter, and more charming. I suspect that some of the effect is driven by bias (and I'm not *just* salty). COVID presents a natural experiment: comparing job prospects for tall people before and after going on Zoom could reveal just how much being tall helps you in an interview or in the workplace.
+
+
 ## Scientists and Surnames 👩🏽‍🔬
 Adopting a partner's surname is an important decision. Even more so for academics, who are often referred to as (Last Name, Year). Do female scientists and academics take a career hit after changing their surname? In particular, do newlyweds experience fewer citations in their new papers?
 

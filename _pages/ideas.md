@@ -5,6 +5,12 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## Speed Rubber Bands 🏎
+When I'm driving and stuck behind a slow driver, I feel a kind of "distance debt" accumulating inside me. After passing the snail, I usually drive much faster than I usually would, in some sense making up for the lost distance. This should have implications for the design of speed bumps and slower zones. Do people respond by speeding up afterwards? Does that introduce externalities?
+
+## Strava for Gymheads 🏋️‍♂️
+This is a space where there's lots of room for product innovation. The current Strava-esque social network for weightlifting is [BodySpace](https://bodyspace.bodybuilding.com/), which has a dreadful UI and what seems like a fairly inactive network. A smart fitness app that integrates with a bunch of other workout trackers (e.g. [Strong](https://www.strong.app/)) could gain a lot more traction.
+
 ## Self-Grade Design ✍️
 Two intro CS courses at Berkeley, [EECS 16A](eecs16a.org) and [EECS 16B](eecs16b.org), both save time by having students grade their own homeworks. The readers then grade a subset of the problems and scale the rest of the grades by the discrepancy between "official" grades and self grades. In theory, if students put good faith effort into self-grades, this a cost-effective and usually-fair way of assigning grades. But I'm worried about (a) the extent and unfairness of noise and (b) the incentives to put an honest effort in self-grades. Under what conditions should students put in such an effort? And how unfair are these systems?
 
@@ -13,7 +19,6 @@ Every high school had them. Once they get into college, it's all about maintaini
 
 ## No Heights on Zoom 💂
 Tall people have an advantage in life, especially in terms of income. But [research](https://www.jstor.org/stable/10.1086/679675?seq=1#metadata_info_tab_contents) suggests that the underlying factor is nutrition—well-fed children are both taller, smarter, and more charming. I suspect that some of the effect is driven by bias (and I'm not *just* salty). COVID presents a natural experiment: comparing job prospects for tall people before and after going on Zoom could reveal just how much being tall helps you in an interview or in the workplace.
-
 
 ## Scientists and Surnames 👩🏽‍🔬
 Adopting a partner's surname is an important decision. Even more so for academics, who are often referred to as (Last Name, Year). Do female scientists and academics take a career hit after changing their surname? In particular, do newlyweds experience fewer citations in their new papers?

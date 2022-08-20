@@ -10,7 +10,7 @@ tags:
 
 Gladwell's *Talking to Strangers* is a pop psychology book about the difficulties of communication. He weaves together case studies of misunderstandings and deception to argue that human communication is filled with folly.
 
-<img align="right" width="30%" src="/images/books/talking.jpeg">
+<img align="right" width="30%" src="/images/books/talking.jpg">
 
 Here's the [paperback](https://www.amazon.com/Talking-Strangers-Should-about-People/dp/0316478520) and [audiobook](https://www.amazon.com/Talking-to-Strangers-audiobook/dp/B07NJCG1XS).
 

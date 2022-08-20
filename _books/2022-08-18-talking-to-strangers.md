@@ -8,7 +8,7 @@ tags:
   - social psychology
 ---
 
-Gladwell's *Talking to Strangers* is a pop social psychology book about the difficulties of communication. He weaves together case studies of misunderstandings and deception to argue that human communication is filled with folly.
+Gladwell's *Talking to Strangers* is a pop psychology book about the difficulties of communication. He weaves together case studies of misunderstandings and deception to argue that human communication is filled with folly.
 
 <img align="right" width="30%" src="/images/books/talking.jpeg">
 

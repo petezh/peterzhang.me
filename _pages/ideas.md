@@ -5,6 +5,15 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## Enrollment Time is an Instrument
+Berkeley enrollment is notorious. Students with late enrollment times—which are randomly assigned—often can't get into the classes they want. The keyword *randomly* should make any economist smile. It provides a perfect instrument to test a variety of hypotheses related to high-demand classes. Does doing PE classes improve GPA? Does missing out on classes like [DATA 100](https://ds100.org/) leave students unprepared for later classes? Can we access and predict outcome variables like mental/physical health, life satisfaction, or career choice?
+
+## Interactive Linear Models
+Linear models shouldn't be that hard to work with. Even with Sci-kit learn, building even a basic OLS model can cause headaches; building and testing new features is even more frustrating, requiring a whole lot of re-running code. A new concept: input a Pandas dataframe and instantly start playing around with linear models in an dynamic interface. Use checkboxes to enable or disable features. Easily engineer new features with buttons for transformations, interactions, boolean conditions, etc. Select your outcome(s) of choice, whether it be train accuracy, test accuracy, cross-validated loss, or so on. Can it be easily misused to produce spurious models? Sure, but so can existing tools. It does nothing else than speed-up the existing data science lifecycle.
+
+## P = ?
+When I'm using [BerkeleyTime](https://berkeleytime.com/) (a student-run course catalog for Berkleey) to check course averages, I often find myself balking at the number of P's and NP's. For a class like [CS 189](https://berkeleytime.com/grades/0-2347-all-shewchuk,-j), where fully 30% of all students opt to take the class P/NP, it's quite hard to look at the left-skewed distribution and feel comfortable. Presumably, most of those P's are actually Cs and Bs. I suspect that the letter grades underlying Ps are similarly distributed across classes, and that using the true distributions of Ps for select classes, we could reasonably estimate the real, letter grade distributions of class grades. Beyond helping lazy assholes like me select easy classes, such a tool could help us understand grade inflation, rates of cheating, effect of e-learning during COVID (which coincided with lax P/NP rules), and so on.
+
 ## Speed Rubber Bands 🏎
 When I'm driving and stuck behind a slow driver, I feel a kind of "distance debt" accumulating inside me. After passing the snail, I usually drive much faster than I usually would, in some sense making up for the lost distance. This should have implications for the design of speed bumps and slower zones. Do people respond by speeding up afterwards? Does that introduce externalities?
 

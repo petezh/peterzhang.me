@@ -9,9 +9,6 @@ tags:
 
 These notes are for Spring 2022's Economics 141: Econometrics.
 
-Midterm 1
-===
-
 ## Probability
 
 Identities:
@@ -71,7 +68,7 @@ $$\hat{\beta}_1 = \frac{s_{XY}}{s_X^2}$$
 
 $$\hat{\beta_0} = \bar{Y} - \hat{B}_1 \bar{X}$$
 
-Not ehtat residuals and errors are different, since the **residuals** $\hat{u_i} := Y_i - (\hat{\beta}_0 + \hat{\beta}_1 X_i)$ are estimators of the true **errors** $u_i := Y_i - (\beta_0 + \beta_1 X_i)$.
+Note that residuals and errors are different, since the **residuals** $\hat{u_i} := Y_i - (\hat{\beta}_0 + \hat{\beta}_1 X_i)$ are estimators of the true **errors** $u_i := Y_i - (\beta_0 + \beta_1 X_i)$.
 
 The **SSR** or sum of squared residuals is how much of the data can't be explained by linear regression. The **ESS** or explained sum of squares is how much can be explained. The **TSS** or total sum of squares is the total spread of the data.
 
@@ -82,3 +79,4 @@ Finally, $R^2 = \frac{ESS}{TSS}$ and represents the proportion of the variation 
 **Homoskedastic** errors have $Var(u_i) = \sigma_u^2$. Under heteroskedasticity, $\hat{\beta}_1$ will be consistent, unbiased, and asymptotically normal but not efficent. We use a different formula for standard error which usually produces higher values.
 
 **Omitted variable bias** occurs when we have a omitted variable $Z$ and the coefficient $\beta_2 \neq 0$ and $\hat{sigma}_{XZ} \neq 0$, resulting in a bias of $\hat{B_1} = \beta_1 + \beta_2 \frac{\hat{\sigma}_{XZ}}{\hat{\sigma}_X^2} + \frac{\hat{\sigma}_{Xu}}{\hat{\sigma}_X^2}$.
+

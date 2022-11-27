@@ -4,6 +4,7 @@ excerpt: "Advised landscaping study of substandard and falsified medicines in su
 image: "/images/experiences/gates_logo.png"
 collection: experiences
 date: 2021-09-15
+end_date: 2022-05-15
 type: Consulting
 venue: Berkeley, CA
 ---
@@ -15,3 +16,5 @@ As preparation, I read [*Bottle of Lies*](https://www.amazon.com/Bottle-Lies-Ins
 <img width="800px" src="/images/experiences/gates_method.png">
 
 I oversaw the process of compiling an original [database](https://docs.google.com/spreadsheets/d/1CggPY4jmicgPwr4yXQr9jnu4BOjSRL1jU1c43dH4BTI/edit#gid=371334395) on SFM prevalence, regulatory strength, and country characteristics, covering more studies than any previous reviews. Afterwards, I helped consultant visualize and analyze the data to gain insights on the scope, causes, and impacts of SFMs. I streamlined a 55-page midpoint report and delegated follow-up deep dives.
+
+In spring 2022, I took over as project leader and worked closely with the points of contact to significantly develop the research base of the project and write the ultimate report. We interviewed 11 subject experts and compiled over 200 studies into a 180-page report. I led the team to an in-person final presentation for the entire Integrated Development Team at the Gates Foundation. The report has gone on to inform Foundation strategy for investing in drug quality in sub-Saharan Africa.

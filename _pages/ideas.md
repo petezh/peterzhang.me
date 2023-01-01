@@ -5,6 +5,9 @@ excerpt: "On my mind."
 author_profile: true
 ---
 
+## Spreading Dataset 🙊
+Debate contains a natural challenge dataset for transcription tasks. Events like LD and policy feature spreading (an abbreviation of "speed-reading"), where debaters attempt to speak as fast as possible while maintaining coherence. Create a web interface where debaters can interact with the existing Whisper API and "grade" their spreading. Get at least 100 hours of good spreading. Voila! A benchmark.
+
 ## Progress Library ✅
 A Python library that makes it easy to regularly save your work on a long job. If you're processing 1M samples with some function, the pickler would dump your work into a pickle every X (say 10,000) runs.
 

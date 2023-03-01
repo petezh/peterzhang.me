@@ -1,7 +1,7 @@
 ---
 title: 'Notes: EECS 16B / Designing Information Devices and Systems II'
-date: 2021-3-26
-permalink: /notes/cs61c
+date: 2022-3-26
+permalink: /notes/eecs16b
 tags:
   - class notes
   - computer science
@@ -46,7 +46,7 @@ $$V_L(t) = L \frac{\partial U_L(t)}{\partial t}$$
 
 The voltage across a capacitor and current across an inductor *cannot change instantaneously*.
 
-In series, $I_{C1} + I_{C2} = V_C$. In parallel, $V_{C1} + I_{C2} = I_C$. In series, $V_{L1} + V_{L2} = V_L$. In parallel, $I_{L1} + I_{L2} = I_L$.
+In series, $I_{C1} + I_{C2} = I_C$. In parallel, $V_{C1} + V_{C2} = V_C$. In series, $V_{L1} + V_{L2} = V_L$. In parallel, $I_{L1} + I_{L2} = I_L$.
 
 ## Phasors
 
@@ -102,7 +102,7 @@ We model sources of **disturbance** by adding $\vec{\omega}_c(t)$ or $\vec{\omeg
 To **identify** a system, we feed in test inputs $\vec{u}$ and observe before-and-after states $\vec{x}$. To predict the model $A$, a we can use least squares for matrix estimation, where $P = \begin{bmatrix} A^\intercal \\ B^\intercal \end{bmatrix}$:
 $$\hat{P} = (D^\intercal D)^{-1} D^\intercal S = \argmin_P ||DP - S||^2_F$$
 
-For **BIBO** (bounded-input bounded-output) models, the stability of the output is determined by its eigenvalues. For discrete systems, if $|\lambda_i| < 1$ for all $i$, the model is stable; if $|lambda_i| \leq 1$ and for $i$ corresponding to $1$ the row $V^{-1}B = \vec{0}$, the model is stable. For continuous systems, if $\text{Re}\{\lambda_i \} < 0$ for all $i$, the model is stable; a analogous marginal stability condition applies.
+For **BIBO** (bounded-input bounded-output) models, the stability of the output is determined by its eigenvalues. For discrete systems, if $|\lambda_i| < 1$ for all $i$, the model is stable; if $|\lambda_i| \leq 1$ and for $i$ corresponding to $1$ the row $V^{-1}B = \vec{0}$, the model is stable. For continuous systems, if $\text{Re}\{\lambda_i \} < 0$ for all $i$, the model is stable; a analogous marginal stability condition applies.
 
 We can apply **feedback control** by tying $\vec{u}$ to $\vec{x}$ in a way that $A_{CL} = A + BF$:
 $$\vec{u}[i] = F\vec{x}[i] + \vec{u}_{OL}[i]$$
